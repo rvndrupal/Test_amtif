@@ -160,6 +160,12 @@ Scroll
     [Arguments]   ${arg1}   ${arg2}
     execute javascript      window.scrollTo(${arg1},${arg2})
 
+Examinar
+    [Arguments]   ${arg1}   ${arg2}
+    Choose File     ${arg1}     ${arg2}
+
+    
+
 
 Video Iniciar
     Start Video Recording

@@ -11,7 +11,7 @@ Resource    ../recursos.robot
 #${url}          https://adessistemas.senasica.gob.mx/amtif/
 ${url}          https://adessistemas.senasica.gob.mx/amtif/login.xhtml
 ${navegador}    chrome
-${tiempo}   .1
+${tiempo}   0
 ${dir}      Img
 ${dir2}      Aviso
 ${fecha_sacrificio}     21/01/2020
@@ -71,6 +71,9 @@ ${fecha_empaque}        21/01/2020
 #     Pantalla
 #     Video Finalizar
 #     Cerrar 
+
+
+
 
 # CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
 #     [Documentation]     Inspección Federal MAAMTIF 
@@ -175,14 +178,12 @@ ${fecha_empaque}        21/01/2020
 #     Pantalla    ${dir}/Imprimir_hoja.png
 #     Print  Imprimir hoja y Aviso Ok
 #     Dormir  2
-#     Video Finalizar
 #     Cerrar 
 
 
 CP052 Capturar Aviso Despojos y Harinas
     [Documentation]     Despojos y Harinas
-    #Video Iniciar
-    Esperar Iniciar ok    5
+    Esperar Iniciar ok    15
     Dormir Todos  ${tiempo}
     Abrir navegador    
     Maximizar 
@@ -195,6 +196,7 @@ CP052 Capturar Aviso Despojos y Harinas
     Print  Solicitud Aviso y despojo ok
     SLI  amtif:selTipoEst   2
     SLI     amtif:selTipoPatron    1
+    Dormir  1
     Texto  (//input[@type='text'])[1]   COMERCIALIZADORA
     Dormir  3   #Botones
     Click  (//input[contains(@type,'submit')])[1]
@@ -210,13 +212,73 @@ CP052 Capturar Aviso Despojos y Harinas
     Obtener  //h2[@class='h2Small'][contains(.,'Establecimiento seleccionado')]    
     Pantalla    ${dir2}/Link_chings.png
     Print  Link chings ok
-    Dormir  1
-   
+    Click  (//input[@type='submit'])[13]
+    Dormir  2
+    Click  (//input[contains(@type,'submit')])[4]
+    Pantalla    ${dir2}/Agregar_producto.png
+    Print  Agregar Producto ok
+    SLI  amtif:selEspecies  2
+    SLI  amtif:selProductos  1
+    Texto  (//input[contains(@type,'text')])[1]  893
+    Texto   (//input[contains(@type,'text')])[2]    23
+    SLI  amtif:selPresentaciones  2
+    SLI  amtif:selMotivos  1
+    Pantalla  ${dir2}/Carga_productos.png
+    Click  (//input[contains(@type,'submit')])[3]
+    Scroll  0  200
+    Pantalla  ${dir2}/Resultado_carga.png
+    Print  Se agrega producto OK
+    Click  (//input[@type='submit'])[16]
+    Scroll  0  250
+    Pantalla  ${dir2}/Transporte.png
+    Print  Transporte OK
+    Dormir  2    #boton
+    Click  (//input[contains(@type,'submit')])[4]
+    Texto  (//input[contains(@type,'text')])[1]     HGO768
+    Texto  (//input[contains(@type,'text')])[2]  433234
+    Pantalla    ${dir2}/Agregar_transporte.png
+    Click  (//input[contains(@type,'submit')])[3]
+    Scroll  0  250
+    Pantalla  ${dir2}/Transportes_agregados.png
+    Print  Transportes Agregados OK
+    Dormir  2   #Botones
+    Click  (//input[contains(@type,'submit')])[16]
+    Scroll  0  0
+    Dormir  2
+    Pantalla    ${dir2}/Resumen.png
+    Print  Resumen final
+    Scroll  0  800
+    Dormir  2
+    Pantalla    ${dir2}/Firmar.png
+    Click  (//input[contains(@type,'submit')])[14]
+    Dormir  2
+    Texto  (//input[contains(@type,'text')])[1]  VINR770919LC8
+    Texto   (//input[contains(@class,'form-control')])[2]   Rorro131319+    
+    Pantalla  ${dir2}/Firma_electronica.png
+    Dormir  2
+    Examinar     (//input[@type='file'])[1]      C:\\ClavePrivada.key
+    Examinar    (//input[@type='file'])[2]     C:\\vinr770919lc8.cer
+    Pantalla  ${dir2}/Carga_key.png
+    Print  Carga de Key y Cer OK
+    Click  (//input[@type='submit'])[12]
+    Scroll  0  250
+    Pantalla  ${dir2}/Folio.png
+    Print  Firma Generada Correctamente OK
+    Click   (//a[@href='#'])[2]
+    Pantalla  ${arg2}/Error_generar_aviso.png
+    Print   Error Generar Aviso Error
+    Obtener  //(error)
 
 
     
 
-    Dormir  2
+
+
+
+
+
+
+    Dormir  3
     #Video Finalizar
     Cerrar 
 
