@@ -9,6 +9,7 @@ Library     String
 #${url}          http://www.practiceselenium.com/practice-form.html
 #${url}          http://demowebshop.tricentis.com/register
 #C:/Python/robotframework/amtif/test_uno/result_uno/result_uno/img/Captura.png
+${dir}      Img
 
 
 ***Keywords***
@@ -42,6 +43,11 @@ Click
     [Arguments]    ${arg1}
     Click Element   xpath=${arg1}
 
+Click id
+    [Arguments]    ${arg1}
+    Click Element   id=${arg1}
+
+
 Click IE
     [Arguments]    ${arg1}
     Click Link      id=${arg1}
@@ -65,6 +71,11 @@ NoVisible
 Texto
     [Arguments]    ${arg1}  ${arg2}
     Input Text   xpath=${arg1}    ${arg2}
+
+Texto Vacio
+    [Arguments]    ${arg1}  
+    Input Text   xpath=${arg1}    ""
+
 
 Obtener
     [Arguments]    ${arg1}  
@@ -125,19 +136,36 @@ Obtener Titulo
     Get Title    
 
 Pantalla
-    #[Arguments]     ${arg1}
-    Capture Page Screenshot     
+    [Arguments]     ${arg1}
+    Capture Page Screenshot     ${arg1}
 
-Login
+
+Login uno
     Texto    (//input[contains(@type,'text')])[1]   erojasc14760  
     Texto    (//input[@class='form-control'])[2]    sena2o14
-    Pantalla
+    Pantalla     ${dir}/Loguno.png 
     Click     //input[@type='submit']
+
+Login Tif
+    Texto       (//input[contains(@id,'tif')])[1]     A-124
+    Texto       //input[contains(@type,'password')]    sen962fitA-124
+    Pantalla         ${dir}/Tif.png
+    Click       (//input[contains(@type,'submit')])[2]
+    
+    
+
+
 
 Scroll
     [Arguments]   ${arg1}   ${arg2}
     execute javascript      window.scrollTo(${arg1},${arg2})
 
+
+Video Iniciar
+    Start Video Recording
+
+Video Finalizar
+    Stop Video Recording
 
 
         
