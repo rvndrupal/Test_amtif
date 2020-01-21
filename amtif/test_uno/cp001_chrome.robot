@@ -17,173 +17,178 @@ ${dir2}      Aviso
 ${fecha_sacrificio}     21/01/2020
 ${fecha_proceso}        21/01/2020
 ${fecha_empaque}        21/01/2020
+${rfc}      vinr770919lc8
+${pass}     Rorro131319+
+${key}      C:\\ClavePrivada.key
+${Cer}      C:\\vinr770919lc8.cer
 
 
 ***Keywords***
 
 
 *** Test Cases ***
-# CP001-1 Ingresar a la URL del Sistema.
-#     Video Iniciar
-#     [Documentation]     Ingresar a la URL del sistema   (Caso CP001-Inicio de Sesión RL )
-#     Esperar Iniciar ok      10
-#     Dormir Todos  ${tiempo}
-#     Abrir navegador    
-#     Maximizar  
-#     Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]   
-#     Pantalla 
-#     Cerrar 
+CP001-1 Ingresar a la URL del Sistema.
+    Video Iniciar
+    [Documentation]     Ingresar a la URL del sistema   (Caso CP001-Inicio de Sesión RL )
+    Esperar Iniciar ok      10
+    Dormir Todos  ${tiempo}
+    Abrir navegador    
+    Maximizar  
+    Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]   
+    Pantalla    ${dir}/Ingreso_sistema.png
+    Print  Ingreso OK
+    Cerrar 
 
-# CP001-2 Ingresar usuario y contraseña, dar click en el Botón "Entrar".
-#     [Documentation]     Ingresar usuario y contraseña, dar click en el Botón "Entrar"   (CP001-Inicio de Sesión RL)  
-#     Esperar Iniciar ok      10
-#     Dormir Todos  ${tiempo}
-#     Abrir navegador    
-#     Maximizar 
-#     Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]    
-#     Login
-#     Obtener  //h1[contains(.,'Bienvenido representante legal')]
-#     Pantalla
-#     Cerrar 
+CP001-2 Ingresar usuario y contraseña, dar click en el Botón "Entrar".
+    [Documentation]     Ingresar usuario y contraseña, dar click en el Botón "Entrar"   (CP001-Inicio de Sesión RL)  
+    Esperar Iniciar ok      10
+    Dormir Todos  ${tiempo}
+    Abrir navegador    
+    Maximizar 
+    Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]    
+    Login uno
+    Obtener  //h1[contains(.,'Bienvenido representante legal')]
+    Pantalla    ${dir}/Login.png
+    Print  Login Ok
+    Cerrar 
 
-# CP002-1 Ingresar a la URL del Sistema.
-#     [Documentation]     Ingresar a la URL del sistema   (Caso CP002-Inicio de Sesión RL )
-#     Esperar Iniciar ok      10
-#     Dormir Todos  ${tiempo}
-#     Abrir navegador    
-#     Maximizar  
-#     Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]  
-#     Pantalla 
-#     Cerrar 
+CP002-1 Ingresar a la URL del Sistema.
+    [Documentation]     Ingresar a la URL del sistema   (Caso CP002-Inicio de Sesión RL )
+    Esperar Iniciar ok      10
+    Dormir Todos  ${tiempo}
+    Abrir navegador    
+    Maximizar  
+    Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]  
+    Pantalla    ${dir}/Caso_dos.png
+    Print  Caso dos OK
+    Cerrar 
 
-# CP002-2 Ingresar usuario y contraseña "Erroneos" click Entrar.
-#     [Documentation]     Ingresar usuario y contraseña Erroneos , dar click en el Botón "Entrar"   (CP002-Usuario Erroneo)  
-#     Esperar Iniciar ok      10
-#     Dormir Todos  ${tiempo}
-#     Abrir navegador    
-#     Maximizar  
-#     Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]   
-#     Texto    (//input[contains(@type,'text')])[1]   rgdur45sd  
-#     Texto    (//input[@class='form-control'])[2]    sena2o20
-#     Pantalla
-#     Click     //input[@type='submit']
-#     Scroll  0  100
-#     Pantalla
-#     Video Finalizar
-#     Cerrar 
-
-
+CP002-2 Ingresar usuario y contraseña "Erroneos" click Entrar.
+    [Documentation]     Ingresar usuario y contraseña Erroneos , dar click en el Botón "Entrar"   (CP002-Usuario Erroneo)  
+    Esperar Iniciar ok      10
+    Dormir Todos  ${tiempo}
+    Abrir navegador    
+    Maximizar  
+    Obtener   //h1[contains(.,'Aviso de Movilización Tipo Inspección Federal')]   
+    Texto    (//input[contains(@type,'text')])[1]   rgdur45sd  
+    Texto    (//input[@class='form-control'])[2]    sena2o20
+    Pantalla    ${dir}/Validar_usuario.png
+    Click     //input[@type='submit']
+    Scroll  0  100
+    Pantalla    ${dir}/Ok_validacion.png
+    Cerrar 
 
 
-# CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
-#     [Documentation]     Inspección Federal MAAMTIF 
-#     Video Iniciar
-#     Esperar Iniciar ok    5
-#     Dormir Todos  ${tiempo}
-#     Abrir navegador    
-#     Maximizar 
-#     Login uno  
-#     Login Tif
-#     Click    (//a[@href='#'])[1]
-#     Scroll  0  200
-#     Pantalla  ${dir}/AvisoTif.png
-#     Print  Solicitud Aviso ok
-#     Click    (//input[@type='submit'])[11]
-#     Scroll  0  200
-#     Pantalla  ${dir}/Estable_destino.png
-#     Print  Establecimiento destino OK
-#     SR  amtif:tipoPatron  Otro
-#     Pantalla  ${dir}/RadioOtro.png
-#     Print  Radio Otro OK
-#     SR  amtif:tipoPatron  TIF
-#     Pantalla  ${dir}/RadioTif.png
-#     Print  Radio TIF OK
-#     Texto Vacio     (//input[contains(@type,'text')])[1] 
-#     Click  (//input[contains(@type,'submit')])[1]
-#     Dormir  1
-#     Pantalla  ${dir}/BuscarTif_vacio.png  
-#     Texto    (//input[contains(@type,'text')])[1]   A-124
-#     Click  (//input[contains(@type,'submit')])[1]
-#     Scroll  0  200
-#     Dormir  1
-#     Pantalla  ${dir}/TifEncontrado.png
-#     Print  Tif Encontrado OK
-#     Click  (//input[contains(@type,'submit')])[14]
-#     Scroll  0  200
-#     Pantalla    ${dir}/Productos_lotes.png
-#     Print   Productos y Lotes OK OK
-#     Click  (//input[contains(@type,'checkbox')])[1]
-#     Scroll  0  400
-#     Dormir  2       #muy importante para el modal
-#     Click       //*[@id="amtif:btnAbrirAgregarProducto"]
-#     Dormir   1
-#     Pantalla  ${dir}/Agregar_Producto.png
-#     SLI  amtif:selProductos  3
-#     SLI   amtif:selProcesos     1
-#     SLI  amtif:selMotivos  2
-#     Texto   (//input[contains(@type,'text')])[1]  Demo Producto
-#     Texto  (//input[@type='text'])[2]  10
-#     SLI   amtif:selPresentaciones  3
-#     Pantalla    ${dir}/Producto_cargados.png
-#     Print  Productos Cargados Modal ok
-#     Click   (//input[contains(@type,'submit')])[3]
-#     Dormir  1
-#     Scroll  0   200
-#     Pantalla    ${dir}/Producto_add.png
-#     Print  Cargados Ok
 
-#     Scroll  0  600
-#     Dormir  2    #importante Boton
-#     Click  (//input[@type='submit'])[8]
-#     Texto    (//input[contains(@type,'text')])[3]  1234
-#     Texto  (//input[contains(@type,'text')])[4]     ${fecha_sacrificio}
-#     Texto  (//input[contains(@type,'text')])[5]  ${fecha_proceso}
-#     Texto  (//input[contains(@type,'text')])[6]  ${fecha_empaque}
-#     Pantalla  ${dir}/Agregar_lote.png
-#     Click  (//input[contains(@type,'submit')])[7]
-#     Scroll      0  700
-#     Dormir      1
-#     Pantalla  ${dir}/Lote_ok.png
-#     Print   Carga Lote ok
-#     Dormir   1
 
-#     Click   (//input[contains(@type,'submit')])[20]
-#     Pantalla  ${dir}/Trasporte_agregados.png
-#     Print   Pantalla transporte OK
-#     Dormir  2   #importante Boton
-#     Click  (//input[contains(@type,'submit')])[4]
-#     Pantalla  ${dir}/Modal_agregar_trasnporte.png
-#     Texto  (//input[contains(@type,'text')])[1]  1234567890
-#     Texto   (//input[contains(@type,'text')])[2]    12345678901234567892
-#     Click  (//input[contains(@type,'submit')])[3]
-#     Pantalla  ${dir}/Add_transporte.png
-#     Print   Se agrega el Transporte OK
-#     Dormir  1
+CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
+    [Documentation]     Inspección Federal MAAMTIF     
+    Esperar Iniciar ok    5
+    Dormir Todos  ${tiempo}
+    Abrir navegador    
+    Maximizar 
+    Login uno  
+    Login Tif
+    Click    (//a[@href='#'])[1]
+    Scroll  0  200
+    Pantalla  ${dir}/AvisoTif.png
+    Print  Solicitud Aviso ok
+    Click    (//input[@type='submit'])[11]
+    Scroll  0  200
+    Pantalla  ${dir}/Estable_destino.png
+    Print  Establecimiento destino OK
+    SR  amtif:tipoPatron  Otro
+    Pantalla  ${dir}/RadioOtro.png
+    Print  Radio Otro OK
+    SR  amtif:tipoPatron  TIF
+    Pantalla  ${dir}/RadioTif.png
+    Print  Radio TIF OK
+    Texto Vacio     (//input[contains(@type,'text')])[1] 
+    Click  (//input[contains(@type,'submit')])[1]
+    Dormir  1
+    Pantalla  ${dir}/BuscarTif_vacio.png  
+    Texto    (//input[contains(@type,'text')])[1]   A-124
+    Click  (//input[contains(@type,'submit')])[1]
+    Scroll  0  200
+    Dormir  1
+    Pantalla  ${dir}/TifEncontrado.png
+    Print  Tif Encontrado OK
+    Click  (//input[contains(@type,'submit')])[14]
+    Scroll  0  200
+    Pantalla    ${dir}/Productos_lotes.png
+    Print   Productos y Lotes OK OK
+    Click  (//input[contains(@type,'checkbox')])[1]
+    Scroll  0  400
+    Dormir  2       #muy importante para el modal
+    Click       //*[@id="amtif:btnAbrirAgregarProducto"]
+    Dormir   1
+    Pantalla  ${dir}/Agregar_Producto.png
+    SLI  amtif:selProductos  3
+    SLI   amtif:selProcesos     1
+    SLI  amtif:selMotivos  2
+    Texto   (//input[contains(@type,'text')])[1]  Demo Producto
+    Texto  (//input[@type='text'])[2]  10
+    SLI   amtif:selPresentaciones  3
+    Pantalla    ${dir}/Producto_cargados.png
+    Print  Productos Cargados Modal ok
+    Click   (//input[contains(@type,'submit')])[3]
+    Dormir  1
+    Scroll  0   200
+    Pantalla    ${dir}/Producto_add.png
+    Print  Cargados Ok
 
-#     Click   (//input[contains(@type,'submit')])[16]
-#     Pantalla  ${dir}/transporte_lote.png
-#     Print  Numoer de Lote y Placas ok
-#     Dormir  4
-#     Click  (//input[contains(@type,'submit')])[12]
-#     Pantalla    ${dir}/Numero_folio.png
-#     Scroll  0  200
-#     Dormir  1
-#     Scroll  0   500
-#     Dormir  1
-#     Scroll  0  800
-#     Scroll  0  0
-#     Dormir  2    #importante botones
-#     Click   //a[contains(.,'Imprimir hoja')]
-#     Click  //a[contains(.,'Imprimir aviso')]
-#     Pantalla    ${dir}/Imprimir_hoja.png
-#     Print  Imprimir hoja y Aviso Ok
-#     Dormir  2
-#     Cerrar 
+    Scroll  0  600
+    Dormir  2    #importante Boton
+    Click  (//input[@type='submit'])[8]
+    Texto    (//input[contains(@type,'text')])[3]  1234
+    Texto  (//input[contains(@type,'text')])[4]     ${fecha_sacrificio}
+    Texto  (//input[contains(@type,'text')])[5]  ${fecha_proceso}
+    Texto  (//input[contains(@type,'text')])[6]  ${fecha_empaque}
+    Pantalla  ${dir}/Agregar_lote.png
+    Click  (//input[contains(@type,'submit')])[7]
+    Scroll      0  700
+    Dormir      1
+    Pantalla  ${dir}/Lote_ok.png
+    Print   Carga Lote ok
+    Dormir   1
+
+    Click   (//input[contains(@type,'submit')])[20]
+    Pantalla  ${dir}/Trasporte_agregados.png
+    Print   Pantalla transporte OK
+    Dormir  2   #importante Boton
+    Click  (//input[contains(@type,'submit')])[4]
+    Pantalla  ${dir}/Modal_agregar_trasnporte.png
+    Texto  (//input[contains(@type,'text')])[1]  1234567890
+    Texto   (//input[contains(@type,'text')])[2]    12345678901234567892
+    Click  (//input[contains(@type,'submit')])[3]
+    Pantalla  ${dir}/Add_transporte.png
+    Print   Se agrega el Transporte OK
+    Dormir  1
+
+    Click   (//input[contains(@type,'submit')])[16]
+    Pantalla  ${dir}/transporte_lote.png
+    Print  Numoer de Lote y Placas ok
+    Dormir  4
+    Click  (//input[contains(@type,'submit')])[12]
+    Pantalla    ${dir}/Numero_folio.png
+    Scroll  0  200
+    Dormir  1
+    Scroll  0   500
+    Dormir  1
+    Scroll  0  800
+    Scroll  0  0
+    Dormir  2    #importante botones
+    Click   //a[contains(.,'Imprimir hoja')]
+    Click  //a[contains(.,'Imprimir aviso')]
+    Pantalla    ${dir}/Imprimir_hoja.png
+    Print  Imprimir hoja y Aviso Ok
+    Dormir  2
+    Cerrar 
 
 
 CP052 Capturar Aviso Despojos y Harinas
     [Documentation]     Despojos y Harinas
-    Esperar Iniciar ok    15
+    Esperar Iniciar ok    25
     Dormir Todos  ${tiempo}
     Abrir navegador    
     Maximizar 
@@ -252,34 +257,28 @@ CP052 Capturar Aviso Despojos y Harinas
     Pantalla    ${dir2}/Firmar.png
     Click  (//input[contains(@type,'submit')])[14]
     Dormir  2
-    Texto  (//input[contains(@type,'text')])[1]  VINR770919LC8
-    Texto   (//input[contains(@class,'form-control')])[2]   Rorro131319+    
+    Texto  (//input[contains(@type,'text')])[1]  ${rfc}
+    Texto   (//input[contains(@class,'form-control')])[2]   ${pass}    
     Pantalla  ${dir2}/Firma_electronica.png
     Dormir  2
-    Examinar     (//input[@type='file'])[1]      C:\\ClavePrivada.key
-    Examinar    (//input[@type='file'])[2]     C:\\vinr770919lc8.cer
+    Examinar     (//input[@type='file'])[1]      ${key}
+    Examinar    (//input[@type='file'])[2]     ${Cer}
     Pantalla  ${dir2}/Carga_key.png
     Print  Carga de Key y Cer OK
     Click  (//input[@type='submit'])[12]
     Scroll  0  250
     Pantalla  ${dir2}/Folio.png
     Print  Firma Generada Correctamente OK
-    Click   (//a[@href='#'])[2]
-    Pantalla  ${arg2}/Error_generar_aviso.png
-    Print   Error Generar Aviso Error
-    Obtener  //(error)
-
-
-    
-
-
-
-
-
-
+    Click   (//a[@href='#'])[2]  
+    Pantalla  ${dir2}/Imprimir_generar_aviso.png
+    Print   Generar Ok
+    Dormir  25
+    Click       //*[@id="amtif:btnObtenPDF"]
+    Pantalla  ${dir2}/Imprimir_aviso.png
+    Print  Ok se imprime
 
     Dormir  3
-    #Video Finalizar
+    Video Finalizar
     Cerrar 
 
 
