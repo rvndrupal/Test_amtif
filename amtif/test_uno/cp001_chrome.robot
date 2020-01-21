@@ -14,8 +14,8 @@ ${navegador}    chrome
 ${tiempo}   0
 ${dir}      Img
 ${fecha_sacrificio}     21/01/2020
-${fecha_proceso}        22/01/2020
-${fecha_empaque}        23/01/2020
+${fecha_proceso}        21/01/2020
+${fecha_empaque}        21/01/2020
 
 
 ***Keywords***
@@ -156,25 +156,24 @@ CP009-1 Aviso de Movilización Tipo Inspección Federal MAAMTIF
     Dormir  1
 
     Click   (//input[contains(@type,'submit')])[16]
-    
+    Pantalla  ${dir}/transporte_lote.png
+    Print  Numoer de Lote y Placas ok
+    Dormir  4
+    Click  (//input[contains(@type,'submit')])[12]
+    Pantalla    ${dir}/Numero_folio.png
+    Scroll  0  200
+    Dormir  1
+    Scroll  0   500
+    Dormir  1
+    Scroll  0  800
+    Scroll  0  0
+    Dormir  2    #importante botones
+    Click   //a[contains(.,'Imprimir hoja')]
+    Click  //a[contains(.,'Imprimir aviso')]
+    Pantalla    ${dir}/Imprimir_hoja.png
+    Print  Imprimir hoja y Aviso Ok
 
-
-
-
-
-    
-
-    
-
-
-
-
-
-
-   
-
-
-
+    Dormir  2
     Cerrar 
 
 
