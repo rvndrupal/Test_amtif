@@ -174,6 +174,14 @@ Video Finalizar
     Stop Video Recording
 
 
+Resultado
+    [Arguments]   ${arg1}   ${arg2}    ${arg3}
+    sleep       ${arg1}   
+    Capture Page Screenshot     ${arg2}
+    log to console    ${arg3} 
+
+
+
         
 
      
