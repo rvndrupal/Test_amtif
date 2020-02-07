@@ -1,0 +1,42 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Cp001 Chrome Copy 8 :: Casos de Prueba CC-04-2019-AMTIF-OT04           
+==============================================================================
+CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF :: Ins... Resultado Ok con dormir
+Solicitud Aviso ok
+Establecimiento destino OK
+Radio Otro OK
+Radio TIF OK
+Tif Encontrado OK
+Productos y Lotes OK OK
+Productos Cargados Modal ok
+Cargados Ok
+| FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <input id="amtif:btnAbrirAgregarLote" type="submit" name="amtif:btnAbrirAgregarLote" value="Agregar lote" title="Agregar lote" disabled="disabled" class="btn btn-default"> is not clickable at point (1262, 431). Other element would receive the click: <div id="fondo" class="completo oculto" style="display: block;"></div>
+  (Session info: chrome=79.0.3945.130)
+------------------------------------------------------------------------------
+CP052 Capturar Aviso Despojos y Harinas :: Despojos y Harinas         Solicitud Aviso y despojo ok
+Establecimiento de Destino OK
+Clicks chings ok
+Link chings ok
+Agregar Producto ok
+Se agrega producto OK
+Transporte OK
+Transportes Agregados OK
+Resumen final
+Carga de Key y Cer OK
+Firma Generada Correctamente OK
+Generar Ok
+Ok se imprime
+| PASS |
+------------------------------------------------------------------------------
+Suites.Cp001 Chrome Copy 8 :: Casos de Prueba CC-04-2019-AMTIF-OT04   | FAIL |
+2 critical tests, 1 passed, 1 failed
+2 tests total, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 critical tests, 1 passed, 1 failed
+2 tests total, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Test_amtif\amtif\resultados_uno\pabot_results\Suites.Cp001 Chrome Copy 8\output.xml

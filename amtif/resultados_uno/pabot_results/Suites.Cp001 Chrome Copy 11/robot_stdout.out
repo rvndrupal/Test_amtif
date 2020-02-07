@@ -1,0 +1,37 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Cp001 Chrome Copy 11 :: Casos de Prueba CC-04-2019-AMTIF-OT04          
+==============================================================================
+CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF :: Ins... Resultado Ok con dormir
+Solicitud Aviso ok
+Establecimiento destino OK
+Radio Otro OK
+Radio TIF OK
+Tif Encontrado OK
+Productos y Lotes OK OK
+Productos Cargados Modal ok
+Cargados Ok
+Carga Lote ok
+Pantalla transporte OK
+Se agrega el Transporte OK
+Numoer de Lote y Placas ok
+Imprimir hoja y Aviso Ok
+| PASS |
+------------------------------------------------------------------------------
+CP052 Capturar Aviso Despojos y Harinas :: Despojos y Harinas         Solicitud Aviso y despojo ok
+Establecimiento de Destino OK
+Clicks chings ok
+Link chings ok
+| FAIL |
+Element with locator 'xpath=(//input[contains(@type,'submit')])[4]' not found.
+------------------------------------------------------------------------------
+Suites.Cp001 Chrome Copy 11 :: Casos de Prueba CC-04-2019-AMTIF-OT04  | FAIL |
+2 critical tests, 1 passed, 1 failed
+2 tests total, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 critical tests, 1 passed, 1 failed
+2 tests total, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Test_amtif\amtif\resultados_uno\pabot_results\Suites.Cp001 Chrome Copy 11\output.xml
