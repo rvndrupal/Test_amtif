@@ -5,7 +5,7 @@ Library     ScreenCapLibrary
 Resource    ../recursos.robot
 
 
-#robot -d result_uno  cp001_video.robot
+#robot -d results  cp001_video.robot
 #pabot --processes 10 --outputdir resultados_uno  test_uno/cp001_chrome*.robot
 
 ***Variables***
