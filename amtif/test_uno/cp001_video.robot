@@ -33,7 +33,9 @@ CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
     Video Iniciar 
     Esperar Iniciar ok    5
     Dormir Todos  ${tiempo}
-    Abrir navegador    
+    Abrir navegador   
+    Click   //*[@id="details-button"]
+    Click   //*[@id="proceed-link"]
     Maximizar 
     Login uno  
     Login Tif
@@ -141,7 +143,10 @@ CP052 Capturar Aviso Despojos y Harinas
     Video Iniciar
     Esperar Iniciar ok    25
     Dormir Todos  ${tiempo}
-    Abrir navegador    
+    Abrir navegador 
+    Click   //*[@id="details-button"]
+    Click   //*[@id="proceed-link"]  
+    Dormir  3 
     Maximizar 
     Login uno  
     Login Tif
