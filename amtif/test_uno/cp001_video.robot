@@ -15,9 +15,9 @@ ${navegador}    chrome
 ${tiempo}   .1
 ${dir}      Img
 ${dir2}      Aviso
-${fecha_sacrificio}     21/01/2020
-${fecha_proceso}        21/01/2020
-${fecha_empaque}        21/01/2020
+${fecha_sacrificio}     09/03/2020
+${fecha_proceso}        09/03/2020
+${fecha_empaque}        09/03/2020
 ${rfc}      vinr770919lc8
 ${pass}     Rorro131319+
 ${key}      C:\\ClavePrivada.key
@@ -62,7 +62,6 @@ CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
     Texto    (//input[contains(@type,'text')])[1]   A-165
     Click  (//input[contains(@type,'submit')])[1]
     Scroll  0  200
-    Dormir  5
     Pantalla  ${dir}/TifEncontrado.png
     Print  Tif Encontrado OK
     Click  (//input[contains(@type,'submit')])[13]
