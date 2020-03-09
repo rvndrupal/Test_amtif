@@ -29,7 +29,8 @@ ${Cer}      C:\\vinr770919lc8.cer
 
 *** Test Cases ***
 CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
-    [Documentation]     Inspección Federal MAAMTIF    
+    [Documentation]     Inspección Federal MAAMTIF  
+    [Tags]      MA01  
     Video Iniciar 
     Esperar Iniciar ok    5
     Dormir Todos  ${tiempo}
@@ -140,6 +141,7 @@ CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
 
 CP052 Capturar Aviso Despojos y Harinas
     [Documentation]     Despojos y Harinas
+    [Tags]      MA02  
     Video Iniciar
     Esperar Iniciar ok    25
     Dormir Todos  ${tiempo}
