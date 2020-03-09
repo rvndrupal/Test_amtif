@@ -58,13 +58,14 @@ CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF
     Click  (//input[contains(@type,'submit')])[1]
     Dormir  1
     Pantalla  ${dir}/BuscarTif_vacio.png  
-    Texto    (//input[contains(@type,'text')])[1]   A-124
+    #Comienza cambio aqui.
+    Texto    (//input[contains(@type,'text')])[1]   A-165
     Click  (//input[contains(@type,'submit')])[1]
     Scroll  0  200
-    Dormir  1
+    Dormir  5
     Pantalla  ${dir}/TifEncontrado.png
     Print  Tif Encontrado OK
-    Click  (//input[contains(@type,'submit')])[14]
+    Click  (//input[contains(@type,'submit')])[13]
     Scroll  0  200
     Pantalla    ${dir}/Productos_lotes.png
     Print   Productos y Lotes OK OK

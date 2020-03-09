@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200207 11:56:17.216" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200309 13:47:18.514" rpa="false">
 <suite id="s1" name="Cp001 Video" source="C:\Test_amtif\amtif\test_uno\cp001_video.robot">
 <test id="s1-t1" name="CP009 Aviso de Movilización Tipo Inspección Federal MAAMTIF">
 <kw name="Video Iniciar" library="recursos">
 <kw name="Start Video Recording" library="ScreenCapLibrary">
 <doc>Starts the recording of a video in the background with the specified ``name``.
 The recording can be stopped by calling the `Stop Video Recording` keyword.</doc>
-<status status="PASS" starttime="20200207 11:56:17.538" endtime="20200207 11:56:17.540"></status>
+<status status="PASS" starttime="20200309 13:47:18.843" endtime="20200309 13:47:18.844"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:17.538" endtime="20200207 11:56:17.540"></status>
+<status status="PASS" starttime="20200309 13:47:18.842" endtime="20200309 13:47:18.844"></status>
 </kw>
 <kw name="Esperar Iniciar ok" library="recursos">
 <arguments>
@@ -19,9 +19,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:17.541" endtime="20200207 11:56:17.541"></status>
+<status status="PASS" starttime="20200309 13:47:18.844" endtime="20200309 13:47:18.845"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:17.541" endtime="20200207 11:56:17.541"></status>
+<status status="PASS" starttime="20200309 13:47:18.844" endtime="20200309 13:47:18.845"></status>
 </kw>
 <kw name="Dormir Todos" library="recursos">
 <arguments>
@@ -32,9 +32,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:17.542" endtime="20200207 11:56:17.543"></status>
+<status status="PASS" starttime="20200309 13:47:18.846" endtime="20200309 13:47:18.846"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:17.542" endtime="20200207 11:56:17.543"></status>
+<status status="PASS" starttime="20200309 13:47:18.845" endtime="20200309 13:47:18.846"></status>
 </kw>
 <kw name="Abrir navegador" library="recursos">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -43,10 +43,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>${url}</arg>
 <arg>${navegador}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:17.544" level="INFO">Opening browser 'chrome' to base url 'https://adessistemas.senasica.gob.mx/amtif/login.xhtml'.</msg>
-<status status="PASS" starttime="20200207 11:56:17.544" endtime="20200207 11:56:21.666"></status>
+<msg timestamp="20200309 13:47:18.847" level="INFO">Opening browser 'chrome' to base url 'https://adessistemas.senasica.gob.mx/amtif/login.xhtml'.</msg>
+<status status="PASS" starttime="20200309 13:47:18.847" endtime="20200309 13:47:21.162"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:17.543" endtime="20200207 11:56:21.666"></status>
+<status status="PASS" starttime="20200309 13:47:18.847" endtime="20200309 13:47:21.163"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -57,10 +57,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:21.667" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
-<status status="PASS" starttime="20200207 11:56:21.667" endtime="20200207 11:56:21.918"></status>
+<msg timestamp="20200309 13:47:21.164" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200309 13:47:21.163" endtime="20200309 13:47:21.430"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:21.666" endtime="20200207 11:56:21.918"></status>
+<status status="PASS" starttime="20200309 13:47:21.163" endtime="20200309 13:47:21.430"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -71,17 +71,17 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:21.918" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
-<status status="PASS" starttime="20200207 11:56:21.918" endtime="20200207 11:56:23.711"></status>
+<msg timestamp="20200309 13:47:21.431" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200309 13:47:21.431" endtime="20200309 13:47:22.775"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:21.918" endtime="20200207 11:56:23.711"></status>
+<status status="PASS" starttime="20200309 13:47:21.431" endtime="20200309 13:47:22.775"></status>
 </kw>
 <kw name="Maximizar" library="recursos">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200207 11:56:23.712" endtime="20200207 11:56:24.935"></status>
+<status status="PASS" starttime="20200309 13:47:22.776" endtime="20200309 13:47:24.001"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:23.711" endtime="20200207 11:56:24.935"></status>
+<status status="PASS" starttime="20200309 13:47:22.776" endtime="20200309 13:47:24.001"></status>
 </kw>
 <kw name="Login uno" library="recursos">
 <kw name="Texto" library="recursos">
@@ -95,10 +95,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:24.936" level="INFO">Typing text 'erojasc14760' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:24.936" endtime="20200207 11:56:25.326"></status>
+<msg timestamp="20200309 13:47:24.002" level="INFO">Typing text 'erojasc14760' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:24.002" endtime="20200309 13:47:24.395"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:24.936" endtime="20200207 11:56:25.326"></status>
+<status status="PASS" starttime="20200309 13:47:24.002" endtime="20200309 13:47:24.395"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -111,10 +111,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:25.326" level="INFO">Typing text 'sena2o14' into text field 'xpath=(//input[@class='form-control'])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:56:25.326" endtime="20200207 11:56:25.722"></status>
+<msg timestamp="20200309 13:47:24.395" level="INFO">Typing text 'sena2o14' into text field 'xpath=(//input[@class='form-control'])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:47:24.395" endtime="20200309 13:47:24.792"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:25.326" endtime="20200207 11:56:25.722"></status>
+<status status="PASS" starttime="20200309 13:47:24.395" endtime="20200309 13:47:24.792"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -125,10 +125,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:26.199" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Loguno.png"&gt;&lt;img src="Img/Loguno.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:25.722" endtime="20200207 11:56:26.199"></status>
+<msg timestamp="20200309 13:47:25.296" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Loguno.png"&gt;&lt;img src="Img/Loguno.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:24.792" endtime="20200309 13:47:25.297"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:25.722" endtime="20200207 11:56:26.199"></status>
+<status status="PASS" starttime="20200309 13:47:24.792" endtime="20200309 13:47:25.297"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -139,12 +139,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:26.200" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
-<status status="PASS" starttime="20200207 11:56:26.200" endtime="20200207 11:56:26.920"></status>
+<msg timestamp="20200309 13:47:25.297" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
+<status status="PASS" starttime="20200309 13:47:25.297" endtime="20200309 13:47:25.804"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:26.199" endtime="20200207 11:56:26.920"></status>
+<status status="PASS" starttime="20200309 13:47:25.297" endtime="20200309 13:47:25.804"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:24.935" endtime="20200207 11:56:26.920"></status>
+<status status="PASS" starttime="20200309 13:47:24.001" endtime="20200309 13:47:25.804"></status>
 </kw>
 <kw name="Login Tif" library="recursos">
 <kw name="Texto" library="recursos">
@@ -158,10 +158,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:26.922" level="INFO">Typing text 'A-124' into text field 'xpath=(//input[contains(@id,'tif')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:26.921" endtime="20200207 11:56:27.305"></status>
+<msg timestamp="20200309 13:47:25.806" level="INFO">Typing text 'A-124' into text field 'xpath=(//input[contains(@id,'tif')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:25.806" endtime="20200309 13:47:26.190"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:26.921" endtime="20200207 11:56:27.305"></status>
+<status status="PASS" starttime="20200309 13:47:25.806" endtime="20200309 13:47:26.190"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -174,10 +174,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:27.306" level="INFO">Typing text 'sen962fitA-124' into text field 'xpath=//input[contains(@type,'password')]'.</msg>
-<status status="PASS" starttime="20200207 11:56:27.305" endtime="20200207 11:56:27.725"></status>
+<msg timestamp="20200309 13:47:26.191" level="INFO">Typing text 'sen962fitA-124' into text field 'xpath=//input[contains(@type,'password')]'.</msg>
+<status status="PASS" starttime="20200309 13:47:26.191" endtime="20200309 13:47:26.598"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:27.305" endtime="20200207 11:56:27.725"></status>
+<status status="PASS" starttime="20200309 13:47:26.190" endtime="20200309 13:47:26.598"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -188,10 +188,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:28.167" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Tif.png"&gt;&lt;img src="Img/Tif.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:27.726" endtime="20200207 11:56:28.167"></status>
+<msg timestamp="20200309 13:47:27.043" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Tif.png"&gt;&lt;img src="Img/Tif.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:26.598" endtime="20200309 13:47:27.043"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:27.725" endtime="20200207 11:56:28.167"></status>
+<status status="PASS" starttime="20200309 13:47:26.598" endtime="20200309 13:47:27.043"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -202,12 +202,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:28.168" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:56:28.167" endtime="20200207 11:56:28.663"></status>
+<msg timestamp="20200309 13:47:27.044" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:47:27.043" endtime="20200309 13:47:27.477"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:28.167" endtime="20200207 11:56:28.663"></status>
+<status status="PASS" starttime="20200309 13:47:27.043" endtime="20200309 13:47:27.477"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:26.921" endtime="20200207 11:56:28.663"></status>
+<status status="PASS" starttime="20200309 13:47:25.805" endtime="20200309 13:47:27.477"></status>
 </kw>
 <kw name="Resultado" library="recursos">
 <arguments>
@@ -220,25 +220,25 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:29.665" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:28.665" endtime="20200207 11:56:29.665"></status>
+<msg timestamp="20200309 13:47:28.480" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:47:27.479" endtime="20200309 13:47:28.480"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
 <arguments>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:30.105" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Resultado_uno.png"&gt;&lt;img src="Img/Resultado_uno.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:29.665" endtime="20200207 11:56:30.105"></status>
+<msg timestamp="20200309 13:47:28.913" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Resultado_uno.png"&gt;&lt;img src="Img/Resultado_uno.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:28.480" endtime="20200309 13:47:28.913"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${arg3}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:30.105" endtime="20200207 11:56:30.106"></status>
+<status status="PASS" starttime="20200309 13:47:28.913" endtime="20200309 13:47:28.914"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:28.664" endtime="20200207 11:56:30.106"></status>
+<status status="PASS" starttime="20200309 13:47:27.478" endtime="20200309 13:47:28.914"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -249,10 +249,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:30.107" level="INFO">Clicking element 'xpath=(//a[@href='#'])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:30.107" endtime="20200207 11:56:31.070"></status>
+<msg timestamp="20200309 13:47:28.915" level="INFO">Clicking element 'xpath=(//a[@href='#'])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:28.915" endtime="20200309 13:47:29.677"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:30.106" endtime="20200207 11:56:31.070"></status>
+<status status="PASS" starttime="20200309 13:47:28.914" endtime="20200309 13:47:29.677"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -264,12 +264,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:31.072" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:29.679" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:31.071" endtime="20200207 11:56:31.178"></status>
+<status status="PASS" starttime="20200309 13:47:29.678" endtime="20200309 13:47:29.788"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:31.071" endtime="20200207 11:56:31.178"></status>
+<status status="PASS" starttime="20200309 13:47:29.678" endtime="20200309 13:47:29.788"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -280,10 +280,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:31.630" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/AvisoTif.png"&gt;&lt;img src="Img/AvisoTif.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:31.179" endtime="20200207 11:56:31.630"></status>
+<msg timestamp="20200309 13:47:30.240" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/AvisoTif.png"&gt;&lt;img src="Img/AvisoTif.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:29.789" endtime="20200309 13:47:30.240"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:31.179" endtime="20200207 11:56:31.631"></status>
+<status status="PASS" starttime="20200309 13:47:29.789" endtime="20200309 13:47:30.240"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -294,9 +294,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:31.631" endtime="20200207 11:56:31.632"></status>
+<status status="PASS" starttime="20200309 13:47:30.240" endtime="20200309 13:47:30.241"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:31.631" endtime="20200207 11:56:31.632"></status>
+<status status="PASS" starttime="20200309 13:47:30.240" endtime="20200309 13:47:30.241"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -307,10 +307,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:31.633" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[11]'.</msg>
-<status status="PASS" starttime="20200207 11:56:31.633" endtime="20200207 11:56:32.155"></status>
+<msg timestamp="20200309 13:47:30.242" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[11]'.</msg>
+<status status="PASS" starttime="20200309 13:47:30.241" endtime="20200309 13:47:30.697"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:31.632" endtime="20200207 11:56:32.155"></status>
+<status status="PASS" starttime="20200309 13:47:30.241" endtime="20200309 13:47:30.697"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -322,12 +322,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:32.157" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:30.698" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:32.156" endtime="20200207 11:56:32.262"></status>
+<status status="PASS" starttime="20200309 13:47:30.698" endtime="20200309 13:47:30.803"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:32.156" endtime="20200207 11:56:32.262"></status>
+<status status="PASS" starttime="20200309 13:47:30.698" endtime="20200309 13:47:30.803"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -338,10 +338,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:32.727" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Estable_destino.png"&gt;&lt;img src="Img/Estable_destino.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:32.263" endtime="20200207 11:56:32.727"></status>
+<msg timestamp="20200309 13:47:31.265" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Estable_destino.png"&gt;&lt;img src="Img/Estable_destino.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:30.804" endtime="20200309 13:47:31.265"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:32.263" endtime="20200207 11:56:32.727"></status>
+<status status="PASS" starttime="20200309 13:47:30.804" endtime="20200309 13:47:31.265"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -352,9 +352,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:32.728" endtime="20200207 11:56:32.728"></status>
+<status status="PASS" starttime="20200309 13:47:31.266" endtime="20200309 13:47:31.266"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:32.727" endtime="20200207 11:56:32.728"></status>
+<status status="PASS" starttime="20200309 13:47:31.266" endtime="20200309 13:47:31.266"></status>
 </kw>
 <kw name="SR" library="recursos">
 <arguments>
@@ -367,10 +367,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:32.729" level="INFO">Selecting 'Otro' from radio button 'amtif:tipoPatron'.</msg>
-<status status="PASS" starttime="20200207 11:56:32.729" endtime="20200207 11:56:33.099"></status>
+<msg timestamp="20200309 13:47:31.267" level="INFO">Selecting 'Otro' from radio button 'amtif:tipoPatron'.</msg>
+<status status="PASS" starttime="20200309 13:47:31.267" endtime="20200309 13:47:31.628"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:32.729" endtime="20200207 11:56:33.099"></status>
+<status status="PASS" starttime="20200309 13:47:31.267" endtime="20200309 13:47:31.628"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -381,10 +381,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:33.562" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/RadioOtro.png"&gt;&lt;img src="Img/RadioOtro.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:33.100" endtime="20200207 11:56:33.562"></status>
+<msg timestamp="20200309 13:47:32.089" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/RadioOtro.png"&gt;&lt;img src="Img/RadioOtro.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:31.629" endtime="20200309 13:47:32.089"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:33.100" endtime="20200207 11:56:33.562"></status>
+<status status="PASS" starttime="20200309 13:47:31.629" endtime="20200309 13:47:32.089"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -395,9 +395,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:33.563" endtime="20200207 11:56:33.564"></status>
+<status status="PASS" starttime="20200309 13:47:32.090" endtime="20200309 13:47:32.090"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:33.563" endtime="20200207 11:56:33.565"></status>
+<status status="PASS" starttime="20200309 13:47:32.089" endtime="20200309 13:47:32.090"></status>
 </kw>
 <kw name="SR" library="recursos">
 <arguments>
@@ -410,10 +410,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:33.568" level="INFO">Selecting 'TIF' from radio button 'amtif:tipoPatron'.</msg>
-<status status="PASS" starttime="20200207 11:56:33.567" endtime="20200207 11:56:33.929"></status>
+<msg timestamp="20200309 13:47:32.091" level="INFO">Selecting 'TIF' from radio button 'amtif:tipoPatron'.</msg>
+<status status="PASS" starttime="20200309 13:47:32.091" endtime="20200309 13:47:32.451"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:33.567" endtime="20200207 11:56:33.929"></status>
+<status status="PASS" starttime="20200309 13:47:32.090" endtime="20200309 13:47:32.451"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -424,10 +424,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:34.354" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/RadioTif.png"&gt;&lt;img src="Img/RadioTif.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:33.930" endtime="20200207 11:56:34.354"></status>
+<msg timestamp="20200309 13:47:32.886" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/RadioTif.png"&gt;&lt;img src="Img/RadioTif.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:32.452" endtime="20200309 13:47:32.886"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:33.929" endtime="20200207 11:56:34.354"></status>
+<status status="PASS" starttime="20200309 13:47:32.452" endtime="20200309 13:47:32.887"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -438,9 +438,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:34.355" endtime="20200207 11:56:34.355"></status>
+<status status="PASS" starttime="20200309 13:47:32.887" endtime="20200309 13:47:32.888"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:34.355" endtime="20200207 11:56:34.355"></status>
+<status status="PASS" starttime="20200309 13:47:32.887" endtime="20200309 13:47:32.888"></status>
 </kw>
 <kw name="Texto Vacio" library="recursos">
 <arguments>
@@ -452,10 +452,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>""</arg>
 </arguments>
-<msg timestamp="20200207 11:56:34.356" level="INFO">Typing text '""' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:34.356" endtime="20200207 11:56:34.736"></status>
+<msg timestamp="20200309 13:47:32.889" level="INFO">Typing text '""' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:32.889" endtime="20200309 13:47:33.252"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:34.356" endtime="20200207 11:56:34.736"></status>
+<status status="PASS" starttime="20200309 13:47:32.888" endtime="20200309 13:47:33.252"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -466,10 +466,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:34.737" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:34.737" endtime="20200207 11:56:35.001"></status>
+<msg timestamp="20200309 13:47:33.253" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:33.252" endtime="20200309 13:47:33.509"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:34.737" endtime="20200207 11:56:35.001"></status>
+<status status="PASS" starttime="20200309 13:47:33.252" endtime="20200309 13:47:33.509"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -480,10 +480,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:36.003" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:35.001" endtime="20200207 11:56:36.003"></status>
+<msg timestamp="20200309 13:47:34.510" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:47:33.510" endtime="20200309 13:47:34.510"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:35.001" endtime="20200207 11:56:36.003"></status>
+<status status="PASS" starttime="20200309 13:47:33.509" endtime="20200309 13:47:34.510"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -494,15 +494,15 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:36.433" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/BuscarTif_vacio.png"&gt;&lt;img src="Img/BuscarTif_vacio.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:36.003" endtime="20200207 11:56:36.433"></status>
+<msg timestamp="20200309 13:47:34.944" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/BuscarTif_vacio.png"&gt;&lt;img src="Img/BuscarTif_vacio.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:34.511" endtime="20200309 13:47:34.944"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:36.003" endtime="20200207 11:56:36.433"></status>
+<status status="PASS" starttime="20200309 13:47:34.510" endtime="20200309 13:47:34.944"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
 <arg>(//input[contains(@type,'text')])[1]</arg>
-<arg>A-124</arg>
+<arg>A-165</arg>
 </arguments>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -510,10 +510,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:36.435" level="INFO">Typing text 'A-124' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:36.435" endtime="20200207 11:56:36.826"></status>
+<msg timestamp="20200309 13:47:34.945" level="INFO">Typing text 'A-165' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:34.945" endtime="20200309 13:47:35.331"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:36.434" endtime="20200207 11:56:36.826"></status>
+<status status="PASS" starttime="20200309 13:47:34.945" endtime="20200309 13:47:35.331"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -524,10 +524,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:36.827" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:36.827" endtime="20200207 11:56:37.077"></status>
+<msg timestamp="20200309 13:47:35.332" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:35.332" endtime="20200309 13:47:35.589"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:36.827" endtime="20200207 11:56:37.077"></status>
+<status status="PASS" starttime="20200309 13:47:35.332" endtime="20200309 13:47:35.589"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -539,26 +539,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:37.078" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:35.590" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:37.078" endtime="20200207 11:56:37.183"></status>
+<status status="PASS" starttime="20200309 13:47:35.590" endtime="20200309 13:47:35.696"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:37.078" endtime="20200207 11:56:37.183"></status>
+<status status="PASS" starttime="20200309 13:47:35.590" endtime="20200309 13:47:35.696"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
-<arg>1</arg>
+<arg>5</arg>
 </arguments>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:38.184" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:37.184" endtime="20200207 11:56:38.184"></status>
+<msg timestamp="20200309 13:47:40.697" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200309 13:47:35.696" endtime="20200309 13:47:40.697"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:37.183" endtime="20200207 11:56:38.184"></status>
+<status status="PASS" starttime="20200309 13:47:35.696" endtime="20200309 13:47:40.697"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -569,10 +569,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:38.620" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/TifEncontrado.png"&gt;&lt;img src="Img/TifEncontrado.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:38.185" endtime="20200207 11:56:38.620"></status>
+<msg timestamp="20200309 13:47:41.126" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/TifEncontrado.png"&gt;&lt;img src="Img/TifEncontrado.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:40.698" endtime="20200309 13:47:41.126"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:38.185" endtime="20200207 11:56:38.620"></status>
+<status status="PASS" starttime="20200309 13:47:40.697" endtime="20200309 13:47:41.126"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -583,23 +583,23 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:38.621" endtime="20200207 11:56:38.621"></status>
+<status status="PASS" starttime="20200309 13:47:41.127" endtime="20200309 13:47:41.127"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:38.621" endtime="20200207 11:56:38.622"></status>
+<status status="PASS" starttime="20200309 13:47:41.127" endtime="20200309 13:47:41.128"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
-<arg>(//input[contains(@type,'submit')])[14]</arg>
+<arg>(//input[contains(@type,'submit')])[13]</arg>
 </arguments>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:38.623" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[14]'.</msg>
-<status status="PASS" starttime="20200207 11:56:38.622" endtime="20200207 11:56:39.563"></status>
+<msg timestamp="20200309 13:47:41.128" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[13]'.</msg>
+<status status="PASS" starttime="20200309 13:47:41.128" endtime="20200309 13:47:41.964"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:38.622" endtime="20200207 11:56:39.563"></status>
+<status status="PASS" starttime="20200309 13:47:41.128" endtime="20200309 13:47:41.964"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -611,12 +611,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:39.565" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:41.966" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:39.564" endtime="20200207 11:56:39.671"></status>
+<status status="PASS" starttime="20200309 13:47:41.965" endtime="20200309 13:47:42.071"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:39.564" endtime="20200207 11:56:39.671"></status>
+<status status="PASS" starttime="20200309 13:47:41.965" endtime="20200309 13:47:42.071"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -627,10 +627,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:40.139" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Productos_lotes.png"&gt;&lt;img src="Img/Productos_lotes.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:39.672" endtime="20200207 11:56:40.139"></status>
+<msg timestamp="20200309 13:47:42.513" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Productos_lotes.png"&gt;&lt;img src="Img/Productos_lotes.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:42.072" endtime="20200309 13:47:42.513"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:39.671" endtime="20200207 11:56:40.139"></status>
+<status status="PASS" starttime="20200309 13:47:42.071" endtime="20200309 13:47:42.513"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -641,9 +641,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:40.140" endtime="20200207 11:56:40.141"></status>
+<status status="PASS" starttime="20200309 13:47:42.514" endtime="20200309 13:47:42.514"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:40.140" endtime="20200207 11:56:40.141"></status>
+<status status="PASS" starttime="20200309 13:47:42.514" endtime="20200309 13:47:42.514"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -654,10 +654,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:40.142" level="INFO">Clicking element 'xpath=(//input[contains(@type,'checkbox')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:40.141" endtime="20200207 11:56:40.418"></status>
+<msg timestamp="20200309 13:47:42.516" level="INFO">Clicking element 'xpath=(//input[contains(@type,'checkbox')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:42.516" endtime="20200309 13:47:42.774"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:40.141" endtime="20200207 11:56:40.418"></status>
+<status status="PASS" starttime="20200309 13:47:42.515" endtime="20200309 13:47:42.774"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -669,12 +669,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:40.419" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:42.775" level="INFO">Executing JavaScript:
 window.scrollTo(0,400)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:40.419" endtime="20200207 11:56:40.528"></status>
+<status status="PASS" starttime="20200309 13:47:42.775" endtime="20200309 13:47:42.881"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:40.418" endtime="20200207 11:56:40.528"></status>
+<status status="PASS" starttime="20200309 13:47:42.774" endtime="20200309 13:47:42.881"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -685,10 +685,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:42.530" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:56:40.529" endtime="20200207 11:56:42.530"></status>
+<msg timestamp="20200309 13:47:44.883" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:47:42.882" endtime="20200309 13:47:44.883"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:40.528" endtime="20200207 11:56:42.530"></status>
+<status status="PASS" starttime="20200309 13:47:42.882" endtime="20200309 13:47:44.883"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -699,10 +699,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:42.531" level="INFO">Clicking element 'xpath=//*[@id="amtif:btnAbrirAgregarProducto"]'.</msg>
-<status status="PASS" starttime="20200207 11:56:42.531" endtime="20200207 11:56:43.058"></status>
+<msg timestamp="20200309 13:47:44.885" level="INFO">Clicking element 'xpath=//*[@id="amtif:btnAbrirAgregarProducto"]'.</msg>
+<status status="PASS" starttime="20200309 13:47:44.885" endtime="20200309 13:47:45.301"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:42.531" endtime="20200207 11:56:43.058"></status>
+<status status="PASS" starttime="20200309 13:47:44.884" endtime="20200309 13:47:45.301"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -713,10 +713,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:44.060" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:43.058" endtime="20200207 11:56:44.060"></status>
+<msg timestamp="20200309 13:47:46.302" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:47:45.302" endtime="20200309 13:47:46.302"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:43.058" endtime="20200207 11:56:44.060"></status>
+<status status="PASS" starttime="20200309 13:47:45.302" endtime="20200309 13:47:46.302"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -727,10 +727,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:44.507" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Agregar_Producto.png"&gt;&lt;img src="Img/Agregar_Producto.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:44.061" endtime="20200207 11:56:44.507"></status>
+<msg timestamp="20200309 13:47:46.731" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Agregar_Producto.png"&gt;&lt;img src="Img/Agregar_Producto.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:46.303" endtime="20200309 13:47:46.731"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:44.060" endtime="20200207 11:56:44.507"></status>
+<status status="PASS" starttime="20200309 13:47:46.302" endtime="20200309 13:47:46.731"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -743,10 +743,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:44.509" level="INFO">Selecting options from selection list 'amtif:selProductos' by index 3.</msg>
-<status status="PASS" starttime="20200207 11:56:44.509" endtime="20200207 11:56:45.629"></status>
+<msg timestamp="20200309 13:47:46.732" level="INFO">Selecting options from selection list 'amtif:selProductos' by index 3.</msg>
+<status status="PASS" starttime="20200309 13:47:46.732" endtime="20200309 13:47:47.849"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:44.508" endtime="20200207 11:56:45.629"></status>
+<status status="PASS" starttime="20200309 13:47:46.732" endtime="20200309 13:47:47.849"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -759,10 +759,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:45.633" level="INFO">Selecting options from selection list 'amtif:selProcesos' by index 1.</msg>
-<status status="PASS" starttime="20200207 11:56:45.633" endtime="20200207 11:56:46.534"></status>
+<msg timestamp="20200309 13:47:47.850" level="INFO">Selecting options from selection list 'amtif:selProcesos' by index 1.</msg>
+<status status="PASS" starttime="20200309 13:47:47.850" endtime="20200309 13:47:48.783"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:45.632" endtime="20200207 11:56:46.534"></status>
+<status status="PASS" starttime="20200309 13:47:47.850" endtime="20200309 13:47:48.783"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -775,10 +775,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:46.535" level="INFO">Selecting options from selection list 'amtif:selMotivos' by index 2.</msg>
-<status status="PASS" starttime="20200207 11:56:46.535" endtime="20200207 11:56:47.539"></status>
+<msg timestamp="20200309 13:47:48.784" level="INFO">Selecting options from selection list 'amtif:selMotivos' by index 2.</msg>
+<status status="PASS" starttime="20200309 13:47:48.784" endtime="20200309 13:47:49.789"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:46.535" endtime="20200207 11:56:47.539"></status>
+<status status="PASS" starttime="20200309 13:47:48.783" endtime="20200309 13:47:49.789"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -791,10 +791,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:47.540" level="INFO">Typing text 'Demo Producto' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:56:47.540" endtime="20200207 11:56:47.955"></status>
+<msg timestamp="20200309 13:47:49.790" level="INFO">Typing text 'Demo Producto' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:47:49.790" endtime="20200309 13:47:50.215"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:47.539" endtime="20200207 11:56:47.955"></status>
+<status status="PASS" starttime="20200309 13:47:49.789" endtime="20200309 13:47:50.215"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -807,10 +807,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:47.956" level="INFO">Typing text '10' into text field 'xpath=(//input[@type='text'])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:56:47.956" endtime="20200207 11:56:48.343"></status>
+<msg timestamp="20200309 13:47:50.216" level="INFO">Typing text '10' into text field 'xpath=(//input[@type='text'])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:47:50.216" endtime="20200309 13:47:50.594"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:47.956" endtime="20200207 11:56:48.343"></status>
+<status status="PASS" starttime="20200309 13:47:50.216" endtime="20200309 13:47:50.594"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -823,10 +823,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:48.345" level="INFO">Selecting options from selection list 'amtif:selPresentaciones' by index 3.</msg>
-<status status="PASS" starttime="20200207 11:56:48.345" endtime="20200207 11:56:49.455"></status>
+<msg timestamp="20200309 13:47:50.595" level="INFO">Selecting options from selection list 'amtif:selPresentaciones' by index 3.</msg>
+<status status="PASS" starttime="20200309 13:47:50.595" endtime="20200309 13:47:51.719"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:48.344" endtime="20200207 11:56:49.456"></status>
+<status status="PASS" starttime="20200309 13:47:50.595" endtime="20200309 13:47:51.719"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -837,10 +837,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:49.909" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Producto_cargados.png"&gt;&lt;img src="Img/Producto_cargados.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:49.456" endtime="20200207 11:56:49.909"></status>
+<msg timestamp="20200309 13:47:52.248" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Producto_cargados.png"&gt;&lt;img src="Img/Producto_cargados.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:51.720" endtime="20200309 13:47:52.249"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:49.456" endtime="20200207 11:56:49.909"></status>
+<status status="PASS" starttime="20200309 13:47:51.720" endtime="20200309 13:47:52.249"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -851,9 +851,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:49.910" endtime="20200207 11:56:49.910"></status>
+<status status="PASS" starttime="20200309 13:47:52.249" endtime="20200309 13:47:52.250"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:49.910" endtime="20200207 11:56:49.911"></status>
+<status status="PASS" starttime="20200309 13:47:52.249" endtime="20200309 13:47:52.250"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -864,10 +864,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:49.911" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:56:49.911" endtime="20200207 11:56:50.461"></status>
+<msg timestamp="20200309 13:47:52.251" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:47:52.251" endtime="20200309 13:47:52.719"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:49.911" endtime="20200207 11:56:50.461"></status>
+<status status="PASS" starttime="20200309 13:47:52.250" endtime="20200309 13:47:52.719"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -878,10 +878,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:51.465" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:50.462" endtime="20200207 11:56:51.465"></status>
+<msg timestamp="20200309 13:47:53.721" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:47:52.720" endtime="20200309 13:47:53.721"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:50.461" endtime="20200207 11:56:51.465"></status>
+<status status="PASS" starttime="20200309 13:47:52.719" endtime="20200309 13:47:53.721"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -893,12 +893,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:51.466" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:53.722" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:51.466" endtime="20200207 11:56:51.573"></status>
+<status status="PASS" starttime="20200309 13:47:53.722" endtime="20200309 13:47:53.827"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:51.465" endtime="20200207 11:56:51.573"></status>
+<status status="PASS" starttime="20200309 13:47:53.721" endtime="20200309 13:47:53.827"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -909,10 +909,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:52.023" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Producto_add.png"&gt;&lt;img src="Img/Producto_add.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:51.575" endtime="20200207 11:56:52.023"></status>
+<msg timestamp="20200309 13:47:54.257" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Producto_add.png"&gt;&lt;img src="Img/Producto_add.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:53.829" endtime="20200309 13:47:54.257"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:51.574" endtime="20200207 11:56:52.023"></status>
+<status status="PASS" starttime="20200309 13:47:53.827" endtime="20200309 13:47:54.257"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -923,9 +923,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:52.024" endtime="20200207 11:56:52.025"></status>
+<status status="PASS" starttime="20200309 13:47:54.258" endtime="20200309 13:47:54.258"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:52.024" endtime="20200207 11:56:52.025"></status>
+<status status="PASS" starttime="20200309 13:47:54.258" endtime="20200309 13:47:54.259"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -937,12 +937,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:52.029" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:54.260" level="INFO">Executing JavaScript:
 window.scrollTo(0,600)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:52.028" endtime="20200207 11:56:52.135"></status>
+<status status="PASS" starttime="20200309 13:47:54.260" endtime="20200309 13:47:54.366"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:52.028" endtime="20200207 11:56:52.135"></status>
+<status status="PASS" starttime="20200309 13:47:54.260" endtime="20200309 13:47:54.366"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -953,10 +953,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:54.138" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:56:52.136" endtime="20200207 11:56:54.138"></status>
+<msg timestamp="20200309 13:47:56.368" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:47:54.367" endtime="20200309 13:47:56.368"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:52.136" endtime="20200207 11:56:54.138"></status>
+<status status="PASS" starttime="20200309 13:47:54.367" endtime="20200309 13:47:56.368"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -967,10 +967,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:54.139" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[8]'.</msg>
-<status status="PASS" starttime="20200207 11:56:54.139" endtime="20200207 11:56:54.658"></status>
+<msg timestamp="20200309 13:47:56.369" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[8]'.</msg>
+<status status="PASS" starttime="20200309 13:47:56.369" endtime="20200309 13:47:56.783"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:54.139" endtime="20200207 11:56:54.658"></status>
+<status status="PASS" starttime="20200309 13:47:56.368" endtime="20200309 13:47:56.783"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -983,10 +983,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:54.659" level="INFO">Typing text '1234' into text field 'xpath=(//input[contains(@type,'text')])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:56:54.659" endtime="20200207 11:56:55.035"></status>
+<msg timestamp="20200309 13:47:56.784" level="INFO">Typing text '1234' into text field 'xpath=(//input[contains(@type,'text')])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:47:56.784" endtime="20200309 13:47:57.175"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:54.659" endtime="20200207 11:56:55.035"></status>
+<status status="PASS" starttime="20200309 13:47:56.783" endtime="20200309 13:47:57.175"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -999,10 +999,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:55.040" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[4]'.</msg>
-<status status="PASS" starttime="20200207 11:56:55.040" endtime="20200207 11:56:55.490"></status>
+<msg timestamp="20200309 13:47:57.177" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[4]'.</msg>
+<status status="PASS" starttime="20200309 13:47:57.177" endtime="20200309 13:47:57.622"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:55.039" endtime="20200207 11:56:55.490"></status>
+<status status="PASS" starttime="20200309 13:47:57.176" endtime="20200309 13:47:57.622"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1015,10 +1015,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:55.491" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[5]'.</msg>
-<status status="PASS" starttime="20200207 11:56:55.491" endtime="20200207 11:56:55.924"></status>
+<msg timestamp="20200309 13:47:57.623" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[5]'.</msg>
+<status status="PASS" starttime="20200309 13:47:57.623" endtime="20200309 13:47:58.067"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:55.490" endtime="20200207 11:56:55.924"></status>
+<status status="PASS" starttime="20200309 13:47:57.623" endtime="20200309 13:47:58.067"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1031,10 +1031,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:55.925" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[6]'.</msg>
-<status status="PASS" starttime="20200207 11:56:55.925" endtime="20200207 11:56:56.371"></status>
+<msg timestamp="20200309 13:47:58.068" level="INFO">Typing text '21/01/2020' into text field 'xpath=(//input[contains(@type,'text')])[6]'.</msg>
+<status status="PASS" starttime="20200309 13:47:58.068" endtime="20200309 13:47:58.499"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:55.924" endtime="20200207 11:56:56.371"></status>
+<status status="PASS" starttime="20200309 13:47:58.067" endtime="20200309 13:47:58.499"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1045,10 +1045,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:56.825" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Agregar_lote.png"&gt;&lt;img src="Img/Agregar_lote.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:56.372" endtime="20200207 11:56:56.825"></status>
+<msg timestamp="20200309 13:47:58.948" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Agregar_lote.png"&gt;&lt;img src="Img/Agregar_lote.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:47:58.500" endtime="20200309 13:47:58.949"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:56.371" endtime="20200207 11:56:56.825"></status>
+<status status="PASS" starttime="20200309 13:47:58.500" endtime="20200309 13:47:58.949"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1059,10 +1059,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:56.827" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[7]'.</msg>
-<status status="PASS" starttime="20200207 11:56:56.826" endtime="20200207 11:56:57.354"></status>
+<msg timestamp="20200309 13:47:58.952" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[7]'.</msg>
+<status status="PASS" starttime="20200309 13:47:58.952" endtime="20200309 13:47:59.389"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:56.826" endtime="20200207 11:56:57.354"></status>
+<status status="PASS" starttime="20200309 13:47:58.952" endtime="20200309 13:47:59.389"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1074,12 +1074,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:56:57.356" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:47:59.390" level="INFO">Executing JavaScript:
 window.scrollTo(0,700)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:56:57.355" endtime="20200207 11:56:57.462"></status>
+<status status="PASS" starttime="20200309 13:47:59.390" endtime="20200309 13:47:59.498"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:57.355" endtime="20200207 11:56:57.462"></status>
+<status status="PASS" starttime="20200309 13:47:59.389" endtime="20200309 13:47:59.498"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1090,10 +1090,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:58.464" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:57.463" endtime="20200207 11:56:58.464"></status>
+<msg timestamp="20200309 13:48:00.500" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:47:59.499" endtime="20200309 13:48:00.500"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:57.462" endtime="20200207 11:56:58.464"></status>
+<status status="PASS" starttime="20200309 13:47:59.499" endtime="20200309 13:48:00.500"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1104,10 +1104,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:58.888" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Lote_ok.png"&gt;&lt;img src="Img/Lote_ok.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:56:58.465" endtime="20200207 11:56:58.888"></status>
+<msg timestamp="20200309 13:48:00.933" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Lote_ok.png"&gt;&lt;img src="Img/Lote_ok.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:00.501" endtime="20200309 13:48:00.933"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:58.464" endtime="20200207 11:56:58.888"></status>
+<status status="PASS" starttime="20200309 13:48:00.500" endtime="20200309 13:48:00.933"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1118,9 +1118,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:56:58.889" endtime="20200207 11:56:58.889"></status>
+<status status="PASS" starttime="20200309 13:48:00.934" endtime="20200309 13:48:00.934"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:58.888" endtime="20200207 11:56:58.889"></status>
+<status status="PASS" starttime="20200309 13:48:00.934" endtime="20200309 13:48:00.934"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1131,10 +1131,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:59.891" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:56:58.890" endtime="20200207 11:56:59.891"></status>
+<msg timestamp="20200309 13:48:01.936" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:48:00.935" endtime="20200309 13:48:01.936"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:58.890" endtime="20200207 11:56:59.891"></status>
+<status status="PASS" starttime="20200309 13:48:00.935" endtime="20200309 13:48:01.936"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1145,10 +1145,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:56:59.892" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[20]'.</msg>
-<status status="PASS" starttime="20200207 11:56:59.892" endtime="20200207 11:57:00.392"></status>
+<msg timestamp="20200309 13:48:01.937" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[20]'.</msg>
+<status status="PASS" starttime="20200309 13:48:01.937" endtime="20200309 13:48:02.385"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:56:59.891" endtime="20200207 11:57:00.392"></status>
+<status status="PASS" starttime="20200309 13:48:01.936" endtime="20200309 13:48:02.385"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1159,10 +1159,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:00.844" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Trasporte_agregados.png"&gt;&lt;img src="Img/Trasporte_agregados.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:00.393" endtime="20200207 11:57:00.844"></status>
+<msg timestamp="20200309 13:48:02.863" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Trasporte_agregados.png"&gt;&lt;img src="Img/Trasporte_agregados.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:02.386" endtime="20200309 13:48:02.863"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:00.392" endtime="20200207 11:57:00.844"></status>
+<status status="PASS" starttime="20200309 13:48:02.385" endtime="20200309 13:48:02.863"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1173,9 +1173,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:00.845" endtime="20200207 11:57:00.846"></status>
+<status status="PASS" starttime="20200309 13:48:02.864" endtime="20200309 13:48:02.864"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:00.845" endtime="20200207 11:57:00.846"></status>
+<status status="PASS" starttime="20200309 13:48:02.863" endtime="20200309 13:48:02.864"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1186,10 +1186,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:02.848" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:00.846" endtime="20200207 11:57:02.848"></status>
+<msg timestamp="20200309 13:48:04.866" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:02.865" endtime="20200309 13:48:04.866"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:00.846" endtime="20200207 11:57:02.848"></status>
+<status status="PASS" starttime="20200309 13:48:02.865" endtime="20200309 13:48:04.866"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1200,10 +1200,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:02.848" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
-<status status="PASS" starttime="20200207 11:57:02.848" endtime="20200207 11:57:03.286"></status>
+<msg timestamp="20200309 13:48:04.867" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
+<status status="PASS" starttime="20200309 13:48:04.866" endtime="20200309 13:48:05.262"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:02.848" endtime="20200207 11:57:03.286"></status>
+<status status="PASS" starttime="20200309 13:48:04.866" endtime="20200309 13:48:05.262"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1214,10 +1214,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:03.779" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Modal_agregar_trasnporte.png"&gt;&lt;img src="Img/Modal_agregar_trasnporte.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:03.287" endtime="20200207 11:57:03.779"></status>
+<msg timestamp="20200309 13:48:05.710" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Modal_agregar_trasnporte.png"&gt;&lt;img src="Img/Modal_agregar_trasnporte.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:05.263" endtime="20200309 13:48:05.710"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:03.287" endtime="20200207 11:57:03.779"></status>
+<status status="PASS" starttime="20200309 13:48:05.263" endtime="20200309 13:48:05.711"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1230,10 +1230,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:03.780" level="INFO">Typing text '1234567890' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:57:03.780" endtime="20200207 11:57:04.167"></status>
+<msg timestamp="20200309 13:48:05.712" level="INFO">Typing text '1234567890' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:48:05.711" endtime="20200309 13:48:06.093"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:03.779" endtime="20200207 11:57:04.167"></status>
+<status status="PASS" starttime="20200309 13:48:05.711" endtime="20200309 13:48:06.093"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1246,10 +1246,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:04.168" level="INFO">Typing text '12345678901234567892' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:57:04.168" endtime="20200207 11:57:04.591"></status>
+<msg timestamp="20200309 13:48:06.094" level="INFO">Typing text '12345678901234567892' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:48:06.094" endtime="20200309 13:48:06.517"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:04.168" endtime="20200207 11:57:04.591"></status>
+<status status="PASS" starttime="20200309 13:48:06.094" endtime="20200309 13:48:06.517"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1260,10 +1260,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:04.592" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:57:04.591" endtime="20200207 11:57:05.044"></status>
+<msg timestamp="20200309 13:48:06.518" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:48:06.517" endtime="20200309 13:48:06.913"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:04.591" endtime="20200207 11:57:05.044"></status>
+<status status="PASS" starttime="20200309 13:48:06.517" endtime="20200309 13:48:06.913"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1274,10 +1274,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:05.508" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Add_transporte.png"&gt;&lt;img src="Img/Add_transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:05.048" endtime="20200207 11:57:05.508"></status>
+<msg timestamp="20200309 13:48:07.356" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Add_transporte.png"&gt;&lt;img src="Img/Add_transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:06.914" endtime="20200309 13:48:07.356"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:05.047" endtime="20200207 11:57:05.509"></status>
+<status status="PASS" starttime="20200309 13:48:06.914" endtime="20200309 13:48:07.356"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1288,9 +1288,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:05.510" endtime="20200207 11:57:05.511"></status>
+<status status="PASS" starttime="20200309 13:48:07.358" endtime="20200309 13:48:07.358"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:05.509" endtime="20200207 11:57:05.511"></status>
+<status status="PASS" starttime="20200309 13:48:07.357" endtime="20200309 13:48:07.358"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1301,10 +1301,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:06.516" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:57:05.514" endtime="20200207 11:57:06.516"></status>
+<msg timestamp="20200309 13:48:08.360" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:48:07.359" endtime="20200309 13:48:08.360"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:05.514" endtime="20200207 11:57:06.516"></status>
+<status status="PASS" starttime="20200309 13:48:07.359" endtime="20200309 13:48:08.360"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1315,10 +1315,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:06.517" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[16]'.</msg>
-<status status="PASS" starttime="20200207 11:57:06.517" endtime="20200207 11:57:07.103"></status>
+<msg timestamp="20200309 13:48:08.361" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[16]'.</msg>
+<status status="PASS" starttime="20200309 13:48:08.361" endtime="20200309 13:48:08.936"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:06.517" endtime="20200207 11:57:07.103"></status>
+<status status="PASS" starttime="20200309 13:48:08.360" endtime="20200309 13:48:08.937"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1329,10 +1329,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:07.556" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/transporte_lote.png"&gt;&lt;img src="Img/transporte_lote.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:07.105" endtime="20200207 11:57:07.556"></status>
+<msg timestamp="20200309 13:48:09.385" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/transporte_lote.png"&gt;&lt;img src="Img/transporte_lote.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:08.938" endtime="20200309 13:48:09.385"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:07.104" endtime="20200207 11:57:07.557"></status>
+<status status="PASS" starttime="20200309 13:48:08.938" endtime="20200309 13:48:09.386"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1343,9 +1343,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:07.558" endtime="20200207 11:57:07.558"></status>
+<status status="PASS" starttime="20200309 13:48:09.387" endtime="20200309 13:48:09.387"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:07.557" endtime="20200207 11:57:07.558"></status>
+<status status="PASS" starttime="20200309 13:48:09.387" endtime="20200309 13:48:09.387"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1356,10 +1356,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:11.560" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:07.559" endtime="20200207 11:57:11.560"></status>
+<msg timestamp="20200309 13:48:13.389" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:09.389" endtime="20200309 13:48:13.389"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:07.559" endtime="20200207 11:57:11.560"></status>
+<status status="PASS" starttime="20200309 13:48:09.388" endtime="20200309 13:48:13.389"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1370,10 +1370,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:11.561" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[12]'.</msg>
-<status status="PASS" starttime="20200207 11:57:11.561" endtime="20200207 11:57:14.654"></status>
+<msg timestamp="20200309 13:48:13.390" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[12]'.</msg>
+<status status="PASS" starttime="20200309 13:48:13.390" endtime="20200309 13:48:15.416"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:11.560" endtime="20200207 11:57:14.654"></status>
+<status status="PASS" starttime="20200309 13:48:13.389" endtime="20200309 13:48:15.416"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1384,10 +1384,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:15.107" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Numero_folio.png"&gt;&lt;img src="Img/Numero_folio.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:14.655" endtime="20200207 11:57:15.108"></status>
+<msg timestamp="20200309 13:48:15.890" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Numero_folio.png"&gt;&lt;img src="Img/Numero_folio.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:15.416" endtime="20200309 13:48:15.890"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:14.654" endtime="20200207 11:57:15.108"></status>
+<status status="PASS" starttime="20200309 13:48:15.416" endtime="20200309 13:48:15.890"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1399,12 +1399,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:15.109" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:15.893" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:15.109" endtime="20200207 11:57:15.215"></status>
+<status status="PASS" starttime="20200309 13:48:15.892" endtime="20200309 13:48:16.004"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:15.108" endtime="20200207 11:57:15.215"></status>
+<status status="PASS" starttime="20200309 13:48:15.891" endtime="20200309 13:48:16.004"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1415,10 +1415,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:16.216" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:57:15.216" endtime="20200207 11:57:16.216"></status>
+<msg timestamp="20200309 13:48:17.007" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:48:16.005" endtime="20200309 13:48:17.007"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:15.215" endtime="20200207 11:57:16.216"></status>
+<status status="PASS" starttime="20200309 13:48:16.004" endtime="20200309 13:48:17.007"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1430,12 +1430,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:16.217" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:17.009" level="INFO">Executing JavaScript:
 window.scrollTo(0,500)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:16.217" endtime="20200207 11:57:16.325"></status>
+<status status="PASS" starttime="20200309 13:48:17.008" endtime="20200309 13:48:17.115"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:16.217" endtime="20200207 11:57:16.325"></status>
+<status status="PASS" starttime="20200309 13:48:17.008" endtime="20200309 13:48:17.115"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1446,10 +1446,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:17.326" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:57:16.326" endtime="20200207 11:57:17.326"></status>
+<msg timestamp="20200309 13:48:18.117" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:48:17.116" endtime="20200309 13:48:18.117"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:16.325" endtime="20200207 11:57:17.326"></status>
+<status status="PASS" starttime="20200309 13:48:17.115" endtime="20200309 13:48:18.117"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1461,12 +1461,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:17.327" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:18.118" level="INFO">Executing JavaScript:
 window.scrollTo(0,800)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:17.327" endtime="20200207 11:57:17.433"></status>
+<status status="PASS" starttime="20200309 13:48:18.118" endtime="20200309 13:48:18.223"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:17.326" endtime="20200207 11:57:17.433"></status>
+<status status="PASS" starttime="20200309 13:48:18.117" endtime="20200309 13:48:18.223"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1478,12 +1478,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:17.435" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:18.225" level="INFO">Executing JavaScript:
 window.scrollTo(0,0)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:17.434" endtime="20200207 11:57:17.542"></status>
+<status status="PASS" starttime="20200309 13:48:18.224" endtime="20200309 13:48:18.331"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:17.434" endtime="20200207 11:57:17.542"></status>
+<status status="PASS" starttime="20200309 13:48:18.224" endtime="20200309 13:48:18.331"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1494,10 +1494,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:19.543" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:17.543" endtime="20200207 11:57:19.543"></status>
+<msg timestamp="20200309 13:48:20.332" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:18.332" endtime="20200309 13:48:20.332"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:17.542" endtime="20200207 11:57:19.543"></status>
+<status status="PASS" starttime="20200309 13:48:18.331" endtime="20200309 13:48:20.332"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1508,10 +1508,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:19.544" level="INFO">Clicking element 'xpath=//a[contains(.,'Imprimir hoja')]'.</msg>
-<status status="PASS" starttime="20200207 11:57:19.544" endtime="20200207 11:57:20.652"></status>
+<msg timestamp="20200309 13:48:20.333" level="INFO">Clicking element 'xpath=//a[contains(.,'Imprimir hoja')]'.</msg>
+<status status="PASS" starttime="20200309 13:48:20.333" endtime="20200309 13:48:21.384"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:19.543" endtime="20200207 11:57:20.652"></status>
+<status status="PASS" starttime="20200309 13:48:20.333" endtime="20200309 13:48:21.386"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1522,10 +1522,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:20.653" level="INFO">Clicking element 'xpath=//a[contains(.,'Imprimir aviso')]'.</msg>
-<status status="PASS" starttime="20200207 11:57:20.653" endtime="20200207 11:57:21.102"></status>
+<msg timestamp="20200309 13:48:21.388" level="INFO">Clicking element 'xpath=//a[contains(.,'Imprimir aviso')]'.</msg>
+<status status="PASS" starttime="20200309 13:48:21.388" endtime="20200309 13:48:21.862"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:20.652" endtime="20200207 11:57:21.102"></status>
+<status status="PASS" starttime="20200309 13:48:21.387" endtime="20200309 13:48:21.862"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1536,10 +1536,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:21.576" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Imprimir_hoja.png"&gt;&lt;img src="Img/Imprimir_hoja.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:21.106" endtime="20200207 11:57:21.576"></status>
+<msg timestamp="20200309 13:48:22.357" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Imprimir_hoja.png"&gt;&lt;img src="Img/Imprimir_hoja.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:21.863" endtime="20200309 13:48:22.357"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:21.105" endtime="20200207 11:57:21.576"></status>
+<status status="PASS" starttime="20200309 13:48:21.863" endtime="20200309 13:48:22.357"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1550,9 +1550,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:21.577" endtime="20200207 11:57:21.578"></status>
+<status status="PASS" starttime="20200309 13:48:22.358" endtime="20200309 13:48:22.358"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:21.577" endtime="20200207 11:57:21.578"></status>
+<status status="PASS" starttime="20200309 13:48:22.358" endtime="20200309 13:48:22.358"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1563,10 +1563,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:23.579" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:21.579" endtime="20200207 11:57:23.579"></status>
+<msg timestamp="20200309 13:48:24.359" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:22.359" endtime="20200309 13:48:24.359"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:21.578" endtime="20200207 11:57:23.579"></status>
+<status status="PASS" starttime="20200309 13:48:22.359" endtime="20200309 13:48:24.359"></status>
 </kw>
 <kw name="Video Finalizar" library="recursos">
 <kw name="Stop Video Recording" library="ScreenCapLibrary">
@@ -1574,29 +1574,29 @@ Without any arguments.</msg>
 ``alias`` is specified, the last opened recording will be closed. If there are more recordings with the same
 alias all of them will be closed. If ``embed`` argument was set to
 ``True`` the video will be displayed in the log file.</doc>
-<msg timestamp="20200207 11:57:24.581" level="INFO" html="yes">&lt;a href="recording_11.webm"&gt;&lt;video width="800px" autoplay&gt;&lt;source src="recording_11.webm" type="video/webm"&gt;&lt;/video&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:23.580" endtime="20200207 11:57:24.581"></status>
+<msg timestamp="20200309 13:48:25.363" level="INFO" html="yes">&lt;a href="recording_14.webm"&gt;&lt;video width="800px" autoplay&gt;&lt;source src="recording_14.webm" type="video/webm"&gt;&lt;/video&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:24.360" endtime="20200309 13:48:25.364"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:23.579" endtime="20200207 11:57:24.582"></status>
+<status status="PASS" starttime="20200309 13:48:24.360" endtime="20200309 13:48:25.364"></status>
 </kw>
 <kw name="Cerrar" library="recursos">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200207 11:57:24.583" endtime="20200207 11:57:26.712"></status>
+<status status="PASS" starttime="20200309 13:48:25.366" endtime="20200309 13:48:27.535"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:24.582" endtime="20200207 11:57:26.712"></status>
+<status status="PASS" starttime="20200309 13:48:25.365" endtime="20200309 13:48:27.535"></status>
 </kw>
 <doc>Inspección Federal MAAMTIF</doc>
-<status status="PASS" starttime="20200207 11:56:17.537" endtime="20200207 11:57:26.713" critical="yes"></status>
+<status status="PASS" starttime="20200309 13:47:18.842" endtime="20200309 13:48:27.536" critical="yes"></status>
 </test>
 <test id="s1-t2" name="CP052 Capturar Aviso Despojos y Harinas">
 <kw name="Video Iniciar" library="recursos">
 <kw name="Start Video Recording" library="ScreenCapLibrary">
 <doc>Starts the recording of a video in the background with the specified ``name``.
 The recording can be stopped by calling the `Stop Video Recording` keyword.</doc>
-<status status="PASS" starttime="20200207 11:57:26.717" endtime="20200207 11:57:26.724"></status>
+<status status="PASS" starttime="20200309 13:48:27.543" endtime="20200309 13:48:27.549"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:26.716" endtime="20200207 11:57:26.724"></status>
+<status status="PASS" starttime="20200309 13:48:27.542" endtime="20200309 13:48:27.549"></status>
 </kw>
 <kw name="Esperar Iniciar ok" library="recursos">
 <arguments>
@@ -1607,9 +1607,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:26.725" endtime="20200207 11:57:26.726"></status>
+<status status="PASS" starttime="20200309 13:48:27.559" endtime="20200309 13:48:27.560"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:26.725" endtime="20200207 11:57:26.726"></status>
+<status status="PASS" starttime="20200309 13:48:27.558" endtime="20200309 13:48:27.560"></status>
 </kw>
 <kw name="Dormir Todos" library="recursos">
 <arguments>
@@ -1620,9 +1620,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:26.727" endtime="20200207 11:57:26.728"></status>
+<status status="PASS" starttime="20200309 13:48:27.562" endtime="20200309 13:48:27.563"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:26.727" endtime="20200207 11:57:26.728"></status>
+<status status="PASS" starttime="20200309 13:48:27.561" endtime="20200309 13:48:27.564"></status>
 </kw>
 <kw name="Abrir navegador" library="recursos">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -1631,10 +1631,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>${url}</arg>
 <arg>${navegador}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:26.730" level="INFO">Opening browser 'chrome' to base url 'https://adessistemas.senasica.gob.mx/amtif/login.xhtml'.</msg>
-<status status="PASS" starttime="20200207 11:57:26.730" endtime="20200207 11:57:29.121"></status>
+<msg timestamp="20200309 13:48:27.568" level="INFO">Opening browser 'chrome' to base url 'https://adessistemas.senasica.gob.mx/amtif/login.xhtml'.</msg>
+<status status="PASS" starttime="20200309 13:48:27.567" endtime="20200309 13:48:29.882"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:26.729" endtime="20200207 11:57:29.121"></status>
+<status status="PASS" starttime="20200309 13:48:27.566" endtime="20200309 13:48:29.882"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1645,10 +1645,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:29.125" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
-<status status="PASS" starttime="20200207 11:57:29.124" endtime="20200207 11:57:29.375"></status>
+<msg timestamp="20200309 13:48:29.883" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200309 13:48:29.883" endtime="20200309 13:48:30.133"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:29.124" endtime="20200207 11:57:29.375"></status>
+<status status="PASS" starttime="20200309 13:48:29.883" endtime="20200309 13:48:30.133"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1659,17 +1659,31 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:29.376" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
-<status status="PASS" starttime="20200207 11:57:29.376" endtime="20200207 11:57:31.513"></status>
+<msg timestamp="20200309 13:48:30.134" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200309 13:48:30.134" endtime="20200309 13:48:31.406"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:29.375" endtime="20200207 11:57:31.513"></status>
+<status status="PASS" starttime="20200309 13:48:30.134" endtime="20200309 13:48:31.406"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:48:34.407" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:31.407" endtime="20200309 13:48:34.407"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:48:31.407" endtime="20200309 13:48:34.407"></status>
 </kw>
 <kw name="Maximizar" library="recursos">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200207 11:57:31.514" endtime="20200207 11:57:32.735"></status>
+<status status="PASS" starttime="20200309 13:48:34.408" endtime="20200309 13:48:35.634"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:31.513" endtime="20200207 11:57:32.735"></status>
+<status status="PASS" starttime="20200309 13:48:34.408" endtime="20200309 13:48:35.634"></status>
 </kw>
 <kw name="Login uno" library="recursos">
 <kw name="Texto" library="recursos">
@@ -1683,10 +1697,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:32.736" level="INFO">Typing text 'erojasc14760' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:57:32.736" endtime="20200207 11:57:33.126"></status>
+<msg timestamp="20200309 13:48:35.635" level="INFO">Typing text 'erojasc14760' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:48:35.635" endtime="20200309 13:48:36.032"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:32.736" endtime="20200207 11:57:33.126"></status>
+<status status="PASS" starttime="20200309 13:48:35.635" endtime="20200309 13:48:36.032"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1699,10 +1713,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:33.127" level="INFO">Typing text 'sena2o14' into text field 'xpath=(//input[@class='form-control'])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:57:33.126" endtime="20200207 11:57:33.521"></status>
+<msg timestamp="20200309 13:48:36.033" level="INFO">Typing text 'sena2o14' into text field 'xpath=(//input[@class='form-control'])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:48:36.032" endtime="20200309 13:48:36.427"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:33.126" endtime="20200207 11:57:33.521"></status>
+<status status="PASS" starttime="20200309 13:48:36.032" endtime="20200309 13:48:36.427"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1713,10 +1727,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:33.986" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Loguno.png"&gt;&lt;img src="Img/Loguno.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:33.521" endtime="20200207 11:57:33.986"></status>
+<msg timestamp="20200309 13:48:36.926" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Loguno.png"&gt;&lt;img src="Img/Loguno.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:36.428" endtime="20200309 13:48:36.926"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:33.521" endtime="20200207 11:57:33.986"></status>
+<status status="PASS" starttime="20200309 13:48:36.427" endtime="20200309 13:48:36.926"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1727,12 +1741,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:33.987" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
-<status status="PASS" starttime="20200207 11:57:33.987" endtime="20200207 11:57:34.546"></status>
+<msg timestamp="20200309 13:48:36.927" level="INFO">Clicking element 'xpath=//input[@type='submit']'.</msg>
+<status status="PASS" starttime="20200309 13:48:36.926" endtime="20200309 13:48:37.441"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:33.986" endtime="20200207 11:57:34.547"></status>
+<status status="PASS" starttime="20200309 13:48:36.926" endtime="20200309 13:48:37.441"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:32.735" endtime="20200207 11:57:34.547"></status>
+<status status="PASS" starttime="20200309 13:48:35.634" endtime="20200309 13:48:37.441"></status>
 </kw>
 <kw name="Login Tif" library="recursos">
 <kw name="Texto" library="recursos">
@@ -1746,10 +1760,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:34.548" level="INFO">Typing text 'A-124' into text field 'xpath=(//input[contains(@id,'tif')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:57:34.548" endtime="20200207 11:57:34.920"></status>
+<msg timestamp="20200309 13:48:37.443" level="INFO">Typing text 'A-124' into text field 'xpath=(//input[contains(@id,'tif')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:48:37.443" endtime="20200309 13:48:37.811"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:34.547" endtime="20200207 11:57:34.920"></status>
+<status status="PASS" starttime="20200309 13:48:37.442" endtime="20200309 13:48:37.811"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1762,10 +1776,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:34.921" level="INFO">Typing text 'sen962fitA-124' into text field 'xpath=//input[contains(@type,'password')]'.</msg>
-<status status="PASS" starttime="20200207 11:57:34.921" endtime="20200207 11:57:35.344"></status>
+<msg timestamp="20200309 13:48:37.813" level="INFO">Typing text 'sen962fitA-124' into text field 'xpath=//input[contains(@type,'password')]'.</msg>
+<status status="PASS" starttime="20200309 13:48:37.812" endtime="20200309 13:48:38.223"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:34.920" endtime="20200207 11:57:35.344"></status>
+<status status="PASS" starttime="20200309 13:48:37.812" endtime="20200309 13:48:38.223"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1776,10 +1790,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:35.794" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Tif.png"&gt;&lt;img src="Img/Tif.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:35.344" endtime="20200207 11:57:35.794"></status>
+<msg timestamp="20200309 13:48:38.668" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Img/Tif.png"&gt;&lt;img src="Img/Tif.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:38.223" endtime="20200309 13:48:38.668"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:35.344" endtime="20200207 11:57:35.794"></status>
+<status status="PASS" starttime="20200309 13:48:38.223" endtime="20200309 13:48:38.668"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1790,12 +1804,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:35.795" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:57:35.795" endtime="20200207 11:57:36.288"></status>
+<msg timestamp="20200309 13:48:38.669" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:48:38.668" endtime="20200309 13:48:39.180"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:35.794" endtime="20200207 11:57:36.288"></status>
+<status status="PASS" starttime="20200309 13:48:38.668" endtime="20200309 13:48:39.180"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:34.547" endtime="20200207 11:57:36.288"></status>
+<status status="PASS" starttime="20200309 13:48:37.442" endtime="20200309 13:48:39.180"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1806,10 +1820,10 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:36.289" level="INFO">Clicking element 'xpath=(//a[@href='#'])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:57:36.289" endtime="20200207 11:57:38.192"></status>
+<msg timestamp="20200309 13:48:39.180" level="INFO">Clicking element 'xpath=(//a[@href='#'])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:48:39.180" endtime="20200309 13:48:40.726"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:36.289" endtime="20200207 11:57:38.192"></status>
+<status status="PASS" starttime="20200309 13:48:39.180" endtime="20200309 13:48:40.726"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1821,12 +1835,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:38.193" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:40.728" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:38.193" endtime="20200207 11:57:38.298"></status>
+<status status="PASS" starttime="20200309 13:48:40.727" endtime="20200309 13:48:40.834"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:38.192" endtime="20200207 11:57:38.298"></status>
+<status status="PASS" starttime="20200309 13:48:40.727" endtime="20200309 13:48:40.834"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1837,10 +1851,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:38.757" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Aviso_despojo.png"&gt;&lt;img src="Aviso/Aviso_despojo.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:38.300" endtime="20200207 11:57:38.757"></status>
+<msg timestamp="20200309 13:48:41.284" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Aviso_despojo.png"&gt;&lt;img src="Aviso/Aviso_despojo.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:40.835" endtime="20200309 13:48:41.284"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:38.299" endtime="20200207 11:57:38.757"></status>
+<status status="PASS" starttime="20200309 13:48:40.835" endtime="20200309 13:48:41.284"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1852,12 +1866,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:38.759" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:41.285" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:38.758" endtime="20200207 11:57:38.867"></status>
+<status status="PASS" starttime="20200309 13:48:41.285" endtime="20200309 13:48:41.393"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:38.758" endtime="20200207 11:57:38.867"></status>
+<status status="PASS" starttime="20200309 13:48:41.285" endtime="20200309 13:48:41.393"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -1868,9 +1882,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:38.868" endtime="20200207 11:57:38.869"></status>
+<status status="PASS" starttime="20200309 13:48:41.394" endtime="20200309 13:48:41.395"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:38.868" endtime="20200207 11:57:38.869"></status>
+<status status="PASS" starttime="20200309 13:48:41.393" endtime="20200309 13:48:41.395"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -1883,10 +1897,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:38.870" level="INFO">Selecting options from selection list 'amtif:selTipoEst' by index 2.</msg>
-<status status="PASS" starttime="20200207 11:57:38.870" endtime="20200207 11:57:39.886"></status>
+<msg timestamp="20200309 13:48:41.396" level="INFO">Selecting options from selection list 'amtif:selTipoEst' by index 2.</msg>
+<status status="PASS" starttime="20200309 13:48:41.396" endtime="20200309 13:48:42.403"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:38.869" endtime="20200207 11:57:39.886"></status>
+<status status="PASS" starttime="20200309 13:48:41.396" endtime="20200309 13:48:42.403"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -1899,10 +1913,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:39.887" level="INFO">Selecting options from selection list 'amtif:selTipoPatron' by index 1.</msg>
-<status status="PASS" starttime="20200207 11:57:39.887" endtime="20200207 11:57:40.785"></status>
+<msg timestamp="20200309 13:48:42.404" level="INFO">Selecting options from selection list 'amtif:selTipoPatron' by index 1.</msg>
+<status status="PASS" starttime="20200309 13:48:42.404" endtime="20200309 13:48:43.300"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:39.887" endtime="20200207 11:57:40.785"></status>
+<status status="PASS" starttime="20200309 13:48:42.403" endtime="20200309 13:48:43.300"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1913,10 +1927,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:41.787" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:57:40.786" endtime="20200207 11:57:41.787"></status>
+<msg timestamp="20200309 13:48:44.301" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:48:43.301" endtime="20200309 13:48:44.301"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:40.786" endtime="20200207 11:57:41.787"></status>
+<status status="PASS" starttime="20200309 13:48:43.301" endtime="20200309 13:48:44.301"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1929,10 +1943,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:41.788" level="INFO">Typing text 'COMERCIALIZADORA' into text field 'xpath=(//input[@type='text'])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:57:41.788" endtime="20200207 11:57:42.235"></status>
+<msg timestamp="20200309 13:48:44.302" level="INFO">Typing text 'COMERCIALIZADORA' into text field 'xpath=(//input[@type='text'])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:48:44.302" endtime="20200309 13:48:44.735"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:41.788" endtime="20200207 11:57:42.235"></status>
+<status status="PASS" starttime="20200309 13:48:44.301" endtime="20200309 13:48:44.735"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -1943,10 +1957,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:47.237" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:42.236" endtime="20200207 11:57:47.237"></status>
+<msg timestamp="20200309 13:48:49.738" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:44.736" endtime="20200309 13:48:49.738"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:42.236" endtime="20200207 11:57:47.237"></status>
+<status status="PASS" starttime="20200309 13:48:44.736" endtime="20200309 13:48:49.738"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -1957,10 +1971,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:47.238" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:57:47.238" endtime="20200207 11:57:47.493"></status>
+<msg timestamp="20200309 13:48:49.739" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:48:49.739" endtime="20200309 13:48:49.996"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:47.237" endtime="20200207 11:57:47.493"></status>
+<status status="PASS" starttime="20200309 13:48:49.739" endtime="20200309 13:48:49.996"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -1972,12 +1986,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:47.494" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:49.997" level="INFO">Executing JavaScript:
 window.scrollTo(0,400)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:47.494" endtime="20200207 11:57:47.601"></status>
+<status status="PASS" starttime="20200309 13:48:49.997" endtime="20200309 13:48:50.104"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:47.494" endtime="20200207 11:57:47.601"></status>
+<status status="PASS" starttime="20200309 13:48:49.997" endtime="20200309 13:48:50.104"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -1988,10 +2002,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:48.056" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Establecimiento_des.png"&gt;&lt;img src="Aviso/Establecimiento_des.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:47.603" endtime="20200207 11:57:48.057"></status>
+<msg timestamp="20200309 13:48:50.583" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Establecimiento_des.png"&gt;&lt;img src="Aviso/Establecimiento_des.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:50.105" endtime="20200309 13:48:50.583"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:47.602" endtime="20200207 11:57:48.057"></status>
+<status status="PASS" starttime="20200309 13:48:50.104" endtime="20200309 13:48:50.583"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2002,9 +2016,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:48.058" endtime="20200207 11:57:48.058"></status>
+<status status="PASS" starttime="20200309 13:48:50.584" endtime="20200309 13:48:50.585"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:48.057" endtime="20200207 11:57:48.058"></status>
+<status status="PASS" starttime="20200309 13:48:50.584" endtime="20200309 13:48:50.585"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2015,10 +2029,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:50.059" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:48.059" endtime="20200207 11:57:50.059"></status>
+<msg timestamp="20200309 13:48:52.587" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:50.585" endtime="20200309 13:48:52.587"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:48.059" endtime="20200207 11:57:50.059"></status>
+<status status="PASS" starttime="20200309 13:48:50.585" endtime="20200309 13:48:52.587"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2029,10 +2043,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:50.060" level="INFO">Clicking element 'xpath=(//a[@href='#'])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:57:50.060" endtime="20200207 11:57:50.321"></status>
+<msg timestamp="20200309 13:48:52.588" level="INFO">Clicking element 'xpath=(//a[@href='#'])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:48:52.587" endtime="20200309 13:48:52.851"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:50.059" endtime="20200207 11:57:50.321"></status>
+<status status="PASS" starttime="20200309 13:48:52.587" endtime="20200309 13:48:52.851"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2043,10 +2057,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:50.774" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Clik_chings.png"&gt;&lt;img src="Aviso/Clik_chings.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:50.322" endtime="20200207 11:57:50.774"></status>
+<msg timestamp="20200309 13:48:53.305" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Clik_chings.png"&gt;&lt;img src="Aviso/Clik_chings.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:52.853" endtime="20200309 13:48:53.306"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:50.322" endtime="20200207 11:57:50.775"></status>
+<status status="PASS" starttime="20200309 13:48:52.852" endtime="20200309 13:48:53.306"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2057,9 +2071,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:50.775" endtime="20200207 11:57:50.779"></status>
+<status status="PASS" starttime="20200309 13:48:53.307" endtime="20200309 13:48:53.308"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:50.775" endtime="20200207 11:57:50.779"></status>
+<status status="PASS" starttime="20200309 13:48:53.306" endtime="20200309 13:48:53.308"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2070,10 +2084,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:53.780" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:50.780" endtime="20200207 11:57:53.780"></status>
+<msg timestamp="20200309 13:48:56.309" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200309 13:48:53.309" endtime="20200309 13:48:56.309"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:50.780" endtime="20200207 11:57:53.780"></status>
+<status status="PASS" starttime="20200309 13:48:53.309" endtime="20200309 13:48:56.309"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2085,12 +2099,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:57:53.781" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:48:56.311" level="INFO">Executing JavaScript:
 window.scrollTo(0,1200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:57:53.781" endtime="20200207 11:57:53.888"></status>
+<status status="PASS" starttime="20200309 13:48:56.310" endtime="20200309 13:48:56.421"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:53.780" endtime="20200207 11:57:53.888"></status>
+<status status="PASS" starttime="20200309 13:48:56.309" endtime="20200309 13:48:56.421"></status>
 </kw>
 <kw name="Obtener" library="recursos">
 <arguments>
@@ -2101,9 +2115,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:53.889" endtime="20200207 11:57:54.109"></status>
+<status status="PASS" starttime="20200309 13:48:56.422" endtime="20200309 13:48:56.645"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:53.888" endtime="20200207 11:57:54.109"></status>
+<status status="PASS" starttime="20200309 13:48:56.421" endtime="20200309 13:48:56.645"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2114,10 +2128,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:54.540" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Link_chings.png"&gt;&lt;img src="Aviso/Link_chings.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:57:54.110" endtime="20200207 11:57:54.540"></status>
+<msg timestamp="20200309 13:48:57.083" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Link_chings.png"&gt;&lt;img src="Aviso/Link_chings.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:48:56.646" endtime="20200309 13:48:57.083"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:54.109" endtime="20200207 11:57:54.540"></status>
+<status status="PASS" starttime="20200309 13:48:56.645" endtime="20200309 13:48:57.083"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2128,9 +2142,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:57:54.541" endtime="20200207 11:57:54.541"></status>
+<status status="PASS" starttime="20200309 13:48:57.084" endtime="20200309 13:48:57.084"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:54.541" endtime="20200207 11:57:54.542"></status>
+<status status="PASS" starttime="20200309 13:48:57.084" endtime="20200309 13:48:57.084"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2141,10 +2155,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:57:54.543" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[13]'.</msg>
-<status status="PASS" starttime="20200207 11:57:54.542" endtime="20200207 11:57:58.366"></status>
+<msg timestamp="20200309 13:48:57.086" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[13]'.</msg>
+<status status="PASS" starttime="20200309 13:48:57.085" endtime="20200309 13:49:00.657"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:54.542" endtime="20200207 11:57:58.366"></status>
+<status status="PASS" starttime="20200309 13:48:57.085" endtime="20200309 13:49:00.657"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2155,10 +2169,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:00.368" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:57:58.367" endtime="20200207 11:58:00.368"></status>
+<msg timestamp="20200309 13:49:02.658" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:00.658" endtime="20200309 13:49:02.658"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:57:58.367" endtime="20200207 11:58:00.368"></status>
+<status status="PASS" starttime="20200309 13:49:00.657" endtime="20200309 13:49:02.658"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2169,10 +2183,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:00.369" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
-<status status="PASS" starttime="20200207 11:58:00.369" endtime="20200207 11:58:00.922"></status>
+<msg timestamp="20200309 13:49:02.659" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
+<status status="PASS" starttime="20200309 13:49:02.659" endtime="20200309 13:49:03.157"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:00.369" endtime="20200207 11:58:00.922"></status>
+<status status="PASS" starttime="20200309 13:49:02.658" endtime="20200309 13:49:03.157"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2183,10 +2197,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:01.543" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Agregar_producto.png"&gt;&lt;img src="Aviso/Agregar_producto.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:00.923" endtime="20200207 11:58:01.543"></status>
+<msg timestamp="20200309 13:49:03.763" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Agregar_producto.png"&gt;&lt;img src="Aviso/Agregar_producto.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:03.158" endtime="20200309 13:49:03.764"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:00.922" endtime="20200207 11:58:01.543"></status>
+<status status="PASS" starttime="20200309 13:49:03.157" endtime="20200309 13:49:03.764"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2197,9 +2211,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:01.544" endtime="20200207 11:58:01.545"></status>
+<status status="PASS" starttime="20200309 13:49:03.765" endtime="20200309 13:49:03.765"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:01.544" endtime="20200207 11:58:01.545"></status>
+<status status="PASS" starttime="20200309 13:49:03.764" endtime="20200309 13:49:03.765"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -2212,10 +2226,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:01.546" level="INFO">Selecting options from selection list 'amtif:selEspecies' by index 2.</msg>
-<status status="PASS" starttime="20200207 11:58:01.545" endtime="20200207 11:58:02.554"></status>
+<msg timestamp="20200309 13:49:03.766" level="INFO">Selecting options from selection list 'amtif:selEspecies' by index 2.</msg>
+<status status="PASS" starttime="20200309 13:49:03.766" endtime="20200309 13:49:04.772"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:01.545" endtime="20200207 11:58:02.554"></status>
+<status status="PASS" starttime="20200309 13:49:03.765" endtime="20200309 13:49:04.772"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -2228,10 +2242,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:02.555" level="INFO">Selecting options from selection list 'amtif:selProductos' by index 1.</msg>
-<status status="PASS" starttime="20200207 11:58:02.555" endtime="20200207 11:58:03.509"></status>
+<msg timestamp="20200309 13:49:04.773" level="INFO">Selecting options from selection list 'amtif:selProductos' by index 1.</msg>
+<status status="PASS" starttime="20200309 13:49:04.773" endtime="20200309 13:49:05.695"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:02.554" endtime="20200207 11:58:03.509"></status>
+<status status="PASS" starttime="20200309 13:49:04.773" endtime="20200309 13:49:05.695"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2244,10 +2258,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:03.510" level="INFO">Typing text '893' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:58:03.510" endtime="20200207 11:58:03.907"></status>
+<msg timestamp="20200309 13:49:05.696" level="INFO">Typing text '893' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:49:05.696" endtime="20200309 13:49:06.087"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:03.509" endtime="20200207 11:58:03.907"></status>
+<status status="PASS" starttime="20200309 13:49:05.695" endtime="20200309 13:49:06.087"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2260,10 +2274,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:03.908" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:58:03.908" endtime="20200207 11:58:04.296"></status>
+<msg timestamp="20200309 13:49:06.089" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:49:06.088" endtime="20200309 13:49:06.474"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:03.908" endtime="20200207 11:58:04.296"></status>
+<status status="PASS" starttime="20200309 13:49:06.088" endtime="20200309 13:49:06.474"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -2276,10 +2290,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:04.298" level="INFO">Selecting options from selection list 'amtif:selPresentaciones' by index 2.</msg>
-<status status="PASS" starttime="20200207 11:58:04.297" endtime="20200207 11:58:05.300"></status>
+<msg timestamp="20200309 13:49:06.475" level="INFO">Selecting options from selection list 'amtif:selPresentaciones' by index 2.</msg>
+<status status="PASS" starttime="20200309 13:49:06.475" endtime="20200309 13:49:07.489"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:04.297" endtime="20200207 11:58:05.300"></status>
+<status status="PASS" starttime="20200309 13:49:06.475" endtime="20200309 13:49:07.489"></status>
 </kw>
 <kw name="SLI" library="recursos">
 <arguments>
@@ -2292,10 +2306,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:05.301" level="INFO">Selecting options from selection list 'amtif:selMotivos' by index 1.</msg>
-<status status="PASS" starttime="20200207 11:58:05.301" endtime="20200207 11:58:06.219"></status>
+<msg timestamp="20200309 13:49:07.490" level="INFO">Selecting options from selection list 'amtif:selMotivos' by index 1.</msg>
+<status status="PASS" starttime="20200309 13:49:07.490" endtime="20200309 13:49:08.390"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:05.301" endtime="20200207 11:58:06.219"></status>
+<status status="PASS" starttime="20200309 13:49:07.489" endtime="20200309 13:49:08.390"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2306,10 +2320,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:06.703" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Carga_productos.png"&gt;&lt;img src="Aviso/Carga_productos.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:06.220" endtime="20200207 11:58:06.704"></status>
+<msg timestamp="20200309 13:49:08.840" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Carga_productos.png"&gt;&lt;img src="Aviso/Carga_productos.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:08.391" endtime="20200309 13:49:08.841"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:06.220" endtime="20200207 11:58:06.704"></status>
+<status status="PASS" starttime="20200309 13:49:08.390" endtime="20200309 13:49:08.841"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2320,10 +2334,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:06.705" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:58:06.705" endtime="20200207 11:58:07.586"></status>
+<msg timestamp="20200309 13:49:08.842" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:49:08.841" endtime="20200309 13:49:09.531"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:06.704" endtime="20200207 11:58:07.586"></status>
+<status status="PASS" starttime="20200309 13:49:08.841" endtime="20200309 13:49:09.531"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2335,12 +2349,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:58:07.588" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:09.533" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:58:07.587" endtime="20200207 11:58:07.694"></status>
+<status status="PASS" starttime="20200309 13:49:09.532" endtime="20200309 13:49:09.639"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:07.586" endtime="20200207 11:58:07.694"></status>
+<status status="PASS" starttime="20200309 13:49:09.532" endtime="20200309 13:49:09.639"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2351,10 +2365,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:08.156" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Resultado_carga.png"&gt;&lt;img src="Aviso/Resultado_carga.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:07.695" endtime="20200207 11:58:08.156"></status>
+<msg timestamp="20200309 13:49:10.079" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Resultado_carga.png"&gt;&lt;img src="Aviso/Resultado_carga.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:09.640" endtime="20200309 13:49:10.079"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:07.695" endtime="20200207 11:58:08.157"></status>
+<status status="PASS" starttime="20200309 13:49:09.639" endtime="20200309 13:49:10.079"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2365,9 +2379,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:08.158" endtime="20200207 11:58:08.159"></status>
+<status status="PASS" starttime="20200309 13:49:10.080" endtime="20200309 13:49:10.080"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:08.157" endtime="20200207 11:58:08.159"></status>
+<status status="PASS" starttime="20200309 13:49:10.080" endtime="20200309 13:49:10.080"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2378,10 +2392,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:08.161" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[16]'.</msg>
-<status status="PASS" starttime="20200207 11:58:08.161" endtime="20200207 11:58:08.715"></status>
+<msg timestamp="20200309 13:49:10.082" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[16]'.</msg>
+<status status="PASS" starttime="20200309 13:49:10.081" endtime="20200309 13:49:10.647"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:08.160" endtime="20200207 11:58:08.715"></status>
+<status status="PASS" starttime="20200309 13:49:10.081" endtime="20200309 13:49:10.647"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2393,12 +2407,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:58:08.717" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:10.648" level="INFO">Executing JavaScript:
 window.scrollTo(0,250)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:58:08.716" endtime="20200207 11:58:08.823"></status>
+<status status="PASS" starttime="20200309 13:49:10.648" endtime="20200309 13:49:10.755"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:08.716" endtime="20200207 11:58:08.823"></status>
+<status status="PASS" starttime="20200309 13:49:10.647" endtime="20200309 13:49:10.755"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2409,10 +2423,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:09.279" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Transporte.png"&gt;&lt;img src="Aviso/Transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:08.824" endtime="20200207 11:58:09.279"></status>
+<msg timestamp="20200309 13:49:11.198" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Transporte.png"&gt;&lt;img src="Aviso/Transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:10.756" endtime="20200309 13:49:11.199"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:08.824" endtime="20200207 11:58:09.279"></status>
+<status status="PASS" starttime="20200309 13:49:10.756" endtime="20200309 13:49:11.199"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2423,9 +2437,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:09.280" endtime="20200207 11:58:09.280"></status>
+<status status="PASS" starttime="20200309 13:49:11.200" endtime="20200309 13:49:11.200"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:09.280" endtime="20200207 11:58:09.280"></status>
+<status status="PASS" starttime="20200309 13:49:11.199" endtime="20200309 13:49:11.200"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2436,10 +2450,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:11.281" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:58:09.281" endtime="20200207 11:58:11.281"></status>
+<msg timestamp="20200309 13:49:13.201" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:11.201" endtime="20200309 13:49:13.201"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:09.281" endtime="20200207 11:58:11.281"></status>
+<status status="PASS" starttime="20200309 13:49:11.201" endtime="20200309 13:49:13.201"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2450,10 +2464,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:11.282" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
-<status status="PASS" starttime="20200207 11:58:11.282" endtime="20200207 11:58:11.818"></status>
+<msg timestamp="20200309 13:49:13.203" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[4]'.</msg>
+<status status="PASS" starttime="20200309 13:49:13.203" endtime="20200309 13:49:13.628"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:11.281" endtime="20200207 11:58:11.818"></status>
+<status status="PASS" starttime="20200309 13:49:13.202" endtime="20200309 13:49:13.628"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2466,10 +2480,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:11.820" level="INFO">Typing text 'HGO768' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:58:11.820" endtime="20200207 11:58:12.201"></status>
+<msg timestamp="20200309 13:49:13.629" level="INFO">Typing text 'HGO768' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:49:13.628" endtime="20200309 13:49:14.007"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:11.819" endtime="20200207 11:58:12.201"></status>
+<status status="PASS" starttime="20200309 13:49:13.628" endtime="20200309 13:49:14.007"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2482,10 +2496,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:12.203" level="INFO">Typing text '433234' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:58:12.202" endtime="20200207 11:58:12.591"></status>
+<msg timestamp="20200309 13:49:14.008" level="INFO">Typing text '433234' into text field 'xpath=(//input[contains(@type,'text')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:49:14.008" endtime="20200309 13:49:14.395"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:12.202" endtime="20200207 11:58:12.591"></status>
+<status status="PASS" starttime="20200309 13:49:14.008" endtime="20200309 13:49:14.395"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2496,10 +2510,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:13.043" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Agregar_transporte.png"&gt;&lt;img src="Aviso/Agregar_transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:12.592" endtime="20200207 11:58:13.043"></status>
+<msg timestamp="20200309 13:49:14.849" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Agregar_transporte.png"&gt;&lt;img src="Aviso/Agregar_transporte.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:14.397" endtime="20200309 13:49:14.849"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:12.591" endtime="20200207 11:58:13.043"></status>
+<status status="PASS" starttime="20200309 13:49:14.396" endtime="20200309 13:49:14.849"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2510,10 +2524,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:13.044" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
-<status status="PASS" starttime="20200207 11:58:13.044" endtime="20200207 11:58:13.702"></status>
+<msg timestamp="20200309 13:49:14.850" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[3]'.</msg>
+<status status="PASS" starttime="20200309 13:49:14.850" endtime="20200309 13:49:15.443"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:13.044" endtime="20200207 11:58:13.702"></status>
+<status status="PASS" starttime="20200309 13:49:14.850" endtime="20200309 13:49:15.443"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2525,12 +2539,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:58:13.704" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:15.444" level="INFO">Executing JavaScript:
 window.scrollTo(0,250)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:58:13.703" endtime="20200207 11:58:13.811"></status>
+<status status="PASS" starttime="20200309 13:49:15.444" endtime="20200309 13:49:15.549"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:13.702" endtime="20200207 11:58:13.811"></status>
+<status status="PASS" starttime="20200309 13:49:15.443" endtime="20200309 13:49:15.549"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2541,10 +2555,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:14.266" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Transportes_agregados.png"&gt;&lt;img src="Aviso/Transportes_agregados.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:13.815" endtime="20200207 11:58:14.266"></status>
+<msg timestamp="20200309 13:49:15.990" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Transportes_agregados.png"&gt;&lt;img src="Aviso/Transportes_agregados.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:15.550" endtime="20200309 13:49:15.990"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:13.814" endtime="20200207 11:58:14.266"></status>
+<status status="PASS" starttime="20200309 13:49:15.549" endtime="20200309 13:49:15.991"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2555,9 +2569,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:14.267" endtime="20200207 11:58:14.267"></status>
+<status status="PASS" starttime="20200309 13:49:15.991" endtime="20200309 13:49:15.992"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:14.267" endtime="20200207 11:58:14.267"></status>
+<status status="PASS" starttime="20200309 13:49:15.991" endtime="20200309 13:49:15.992"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2568,10 +2582,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:16.269" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:58:14.268" endtime="20200207 11:58:16.269"></status>
+<msg timestamp="20200309 13:49:17.995" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:15.993" endtime="20200309 13:49:17.995"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:14.268" endtime="20200207 11:58:16.269"></status>
+<status status="PASS" starttime="20200309 13:49:15.992" endtime="20200309 13:49:17.995"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2582,10 +2596,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:16.270" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[16]'.</msg>
-<status status="PASS" starttime="20200207 11:58:16.270" endtime="20200207 11:58:17.620"></status>
+<msg timestamp="20200309 13:49:17.997" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[16]'.</msg>
+<status status="PASS" starttime="20200309 13:49:17.997" endtime="20200309 13:49:19.050"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:16.270" endtime="20200207 11:58:17.620"></status>
+<status status="PASS" starttime="20200309 13:49:17.997" endtime="20200309 13:49:19.050"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2597,12 +2611,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:58:17.622" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:19.051" level="INFO">Executing JavaScript:
 window.scrollTo(0,0)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:58:17.621" endtime="20200207 11:58:17.728"></status>
+<status status="PASS" starttime="20200309 13:49:19.051" endtime="20200309 13:49:19.158"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:17.621" endtime="20200207 11:58:17.728"></status>
+<status status="PASS" starttime="20200309 13:49:19.050" endtime="20200309 13:49:19.158"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2613,10 +2627,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:19.730" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:58:17.729" endtime="20200207 11:58:19.730"></status>
+<msg timestamp="20200309 13:49:21.161" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:19.159" endtime="20200309 13:49:21.161"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:17.728" endtime="20200207 11:58:19.730"></status>
+<status status="PASS" starttime="20200309 13:49:19.159" endtime="20200309 13:49:21.161"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2627,10 +2641,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:20.173" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Resumen.png"&gt;&lt;img src="Aviso/Resumen.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:19.731" endtime="20200207 11:58:20.173"></status>
+<msg timestamp="20200309 13:49:21.593" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Resumen.png"&gt;&lt;img src="Aviso/Resumen.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:21.161" endtime="20200309 13:49:21.593"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:19.731" endtime="20200207 11:58:20.173"></status>
+<status status="PASS" starttime="20200309 13:49:21.161" endtime="20200309 13:49:21.593"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2641,9 +2655,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:20.174" endtime="20200207 11:58:20.175"></status>
+<status status="PASS" starttime="20200309 13:49:21.594" endtime="20200309 13:49:21.594"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:20.174" endtime="20200207 11:58:20.175"></status>
+<status status="PASS" starttime="20200309 13:49:21.594" endtime="20200309 13:49:21.595"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2655,12 +2669,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 11:58:20.176" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:21.596" level="INFO">Executing JavaScript:
 window.scrollTo(0,800)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200207 11:58:20.175" endtime="20200207 11:58:20.281"></status>
+<status status="PASS" starttime="20200309 13:49:21.595" endtime="20200309 13:49:21.702"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:20.175" endtime="20200207 11:58:20.281"></status>
+<status status="PASS" starttime="20200309 13:49:21.595" endtime="20200309 13:49:21.702"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2671,10 +2685,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:22.282" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200207 11:58:20.282" endtime="20200207 11:58:22.282"></status>
+<msg timestamp="20200309 13:49:23.703" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:21.703" endtime="20200309 13:49:23.703"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:20.281" endtime="20200207 11:58:22.282"></status>
+<status status="PASS" starttime="20200309 13:49:21.702" endtime="20200309 13:49:23.703"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2685,10 +2699,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:22.717" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Firmar.png"&gt;&lt;img src="Aviso/Firmar.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:22.283" endtime="20200207 11:58:22.717"></status>
+<msg timestamp="20200309 13:49:24.161" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Firmar.png"&gt;&lt;img src="Aviso/Firmar.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:23.704" endtime="20200309 13:49:24.161"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:22.283" endtime="20200207 11:58:22.717"></status>
+<status status="PASS" starttime="20200309 13:49:23.704" endtime="20200309 13:49:24.161"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2699,10 +2713,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:22.718" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[14]'.</msg>
-<status status="PASS" starttime="20200207 11:58:22.718" endtime="20200207 11:58:23.512"></status>
+<msg timestamp="20200309 13:49:24.162" level="INFO">Clicking element 'xpath=(//input[contains(@type,'submit')])[14]'.</msg>
+<status status="PASS" starttime="20200309 13:49:24.162" endtime="20200309 13:49:24.803"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:22.717" endtime="20200207 11:58:23.512"></status>
+<status status="PASS" starttime="20200309 13:49:24.161" endtime="20200309 13:49:24.803"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2713,10 +2727,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:24.514" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:58:23.512" endtime="20200207 11:58:24.514"></status>
+<msg timestamp="20200309 13:49:25.805" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:49:24.804" endtime="20200309 13:49:25.805"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:23.512" endtime="20200207 11:58:24.514"></status>
+<status status="PASS" starttime="20200309 13:49:24.803" endtime="20200309 13:49:25.805"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2729,10 +2743,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:24.516" level="INFO">Typing text 'vinr770919lc8' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
-<status status="PASS" starttime="20200207 11:58:24.515" endtime="20200207 11:58:24.939"></status>
+<msg timestamp="20200309 13:49:25.808" level="INFO">Typing text 'vinr770919lc8' into text field 'xpath=(//input[contains(@type,'text')])[1]'.</msg>
+<status status="PASS" starttime="20200309 13:49:25.807" endtime="20200309 13:49:26.214"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:24.515" endtime="20200207 11:58:24.939"></status>
+<status status="PASS" starttime="20200309 13:49:25.806" endtime="20200309 13:49:26.214"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -2745,10 +2759,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:24.940" level="INFO">Typing text 'Rorro131319+' into text field 'xpath=(//input[contains(@class,'form-control')])[2]'.</msg>
-<status status="PASS" starttime="20200207 11:58:24.940" endtime="20200207 11:58:25.348"></status>
+<msg timestamp="20200309 13:49:26.215" level="INFO">Typing text 'Rorro131319+' into text field 'xpath=(//input[contains(@class,'form-control')])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:49:26.215" endtime="20200309 13:49:26.630"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:24.939" endtime="20200207 11:58:25.348"></status>
+<status status="PASS" starttime="20200309 13:49:26.215" endtime="20200309 13:49:26.630"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2759,10 +2773,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:25.813" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Firma_electronica.png"&gt;&lt;img src="Aviso/Firma_electronica.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:25.348" endtime="20200207 11:58:25.813"></status>
+<msg timestamp="20200309 13:49:27.099" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Firma_electronica.png"&gt;&lt;img src="Aviso/Firma_electronica.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:26.631" endtime="20200309 13:49:27.099"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:25.348" endtime="20200207 11:58:25.814"></status>
+<status status="PASS" starttime="20200309 13:49:26.631" endtime="20200309 13:49:27.099"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2773,10 +2787,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:26.816" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:58:25.814" endtime="20200207 11:58:26.816"></status>
+<msg timestamp="20200309 13:49:28.102" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:49:27.101" endtime="20200309 13:49:28.102"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:25.814" endtime="20200207 11:58:26.816"></status>
+<status status="PASS" starttime="20200309 13:49:27.100" endtime="20200309 13:49:28.102"></status>
 </kw>
 <kw name="Examinar" library="recursos">
 <arguments>
@@ -2789,10 +2803,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:26.817" level="INFO">Sending C:\ClavePrivada.key to browser.</msg>
-<status status="PASS" starttime="20200207 11:58:26.817" endtime="20200207 11:58:27.052"></status>
+<msg timestamp="20200309 13:49:28.103" level="INFO">Sending C:\ClavePrivada.key to browser.</msg>
+<status status="PASS" starttime="20200309 13:49:28.103" endtime="20200309 13:49:28.336"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:26.816" endtime="20200207 11:58:27.052"></status>
+<status status="PASS" starttime="20200309 13:49:28.102" endtime="20200309 13:49:28.336"></status>
 </kw>
 <kw name="Examinar" library="recursos">
 <arguments>
@@ -2805,10 +2819,10 @@ Without any arguments.</msg>
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:27.053" level="INFO">Sending C:\vinr770919lc8.cer to browser.</msg>
-<status status="PASS" starttime="20200207 11:58:27.053" endtime="20200207 11:58:27.288"></status>
+<msg timestamp="20200309 13:49:28.337" level="INFO">Sending C:\vinr770919lc8.cer to browser.</msg>
+<status status="PASS" starttime="20200309 13:49:28.337" endtime="20200309 13:49:28.569"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:27.053" endtime="20200207 11:58:27.288"></status>
+<status status="PASS" starttime="20200309 13:49:28.336" endtime="20200309 13:49:28.569"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -2819,10 +2833,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:28.292" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200207 11:58:27.291" endtime="20200207 11:58:28.292"></status>
+<msg timestamp="20200309 13:49:29.571" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200309 13:49:28.570" endtime="20200309 13:49:29.571"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:27.290" endtime="20200207 11:58:28.292"></status>
+<status status="PASS" starttime="20200309 13:49:28.569" endtime="20200309 13:49:29.571"></status>
 </kw>
 <kw name="Pantalla" library="recursos">
 <arguments>
@@ -2833,10 +2847,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:28.756" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Carga_key.png"&gt;&lt;img src="Aviso/Carga_key.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200207 11:58:28.293" endtime="20200207 11:58:28.756"></status>
+<msg timestamp="20200309 13:49:30.005" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Carga_key.png"&gt;&lt;img src="Aviso/Carga_key.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:29.572" endtime="20200309 13:49:30.005"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:28.293" endtime="20200207 11:58:28.757"></status>
+<status status="PASS" starttime="20200309 13:49:29.572" endtime="20200309 13:49:30.005"></status>
 </kw>
 <kw name="Print" library="recursos">
 <arguments>
@@ -2847,9 +2861,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<status status="PASS" starttime="20200207 11:58:28.758" endtime="20200207 11:58:28.758"></status>
+<status status="PASS" starttime="20200309 13:49:30.006" endtime="20200309 13:49:30.006"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:28.757" endtime="20200207 11:58:28.758"></status>
+<status status="PASS" starttime="20200309 13:49:30.005" endtime="20200309 13:49:30.006"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -2860,10 +2874,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200207 11:58:28.759" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[12]'.</msg>
-<status status="PASS" starttime="20200207 11:58:28.759" endtime="20200207 12:02:04.594"></status>
+<msg timestamp="20200309 13:49:30.007" level="INFO">Clicking element 'xpath=(//input[@type='submit'])[12]'.</msg>
+<status status="PASS" starttime="20200309 13:49:30.007" endtime="20200309 13:49:55.757"></status>
 </kw>
-<status status="PASS" starttime="20200207 11:58:28.759" endtime="20200207 12:02:04.594"></status>
+<status status="PASS" starttime="20200309 13:49:30.007" endtime="20200309 13:49:55.757"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -2875,39 +2889,183 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200207 12:02:04.597" level="INFO">Executing JavaScript:
+<msg timestamp="20200309 13:49:55.758" level="INFO">Executing JavaScript:
 window.scrollTo(0,250)
 Without any arguments.</msg>
+<status status="PASS" starttime="20200309 13:49:55.757" endtime="20200309 13:49:55.863"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:55.757" endtime="20200309 13:49:55.863"></status>
+</kw>
+<kw name="Pantalla" library="recursos">
+<arguments>
+<arg>${dir2}/Folio.png</arg>
+</arguments>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20200207 12:02:16.644" level="FAIL">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=80.0.3987.87)
-</msg>
-<status status="FAIL" starttime="20200207 12:02:10.624" endtime="20200207 12:02:16.644"></status>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:49:56.309" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Folio.png"&gt;&lt;img src="Aviso/Folio.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:55.864" endtime="20200309 13:49:56.309"></status>
 </kw>
-<msg timestamp="20200207 12:02:16.645" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
-  (Session info: chrome=80.0.3987.87)
-</msg>
-<msg timestamp="20200207 12:02:16.649" level="FAIL">ValueError: I/O operation on closed file.</msg>
-<status status="FAIL" starttime="20200207 12:02:04.596" endtime="20200207 12:02:16.649"></status>
+<status status="PASS" starttime="20200309 13:49:55.864" endtime="20200309 13:49:56.309"></status>
 </kw>
-<status status="FAIL" starttime="20200207 12:02:04.595" endtime="20200207 12:02:16.649"></status>
+<kw name="Print" library="recursos">
+<arguments>
+<arg>Firma Generada Correctamente OK</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<status status="PASS" starttime="20200309 13:49:56.310" endtime="20200309 13:49:56.311"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:56.310" endtime="20200309 13:49:56.311"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>(//a[@href='#'])[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:49:56.312" level="INFO">Clicking element 'xpath=(//a[@href='#'])[2]'.</msg>
+<status status="PASS" starttime="20200309 13:49:56.312" endtime="20200309 13:49:56.619"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:56.311" endtime="20200309 13:49:56.620"></status>
+</kw>
+<kw name="Pantalla" library="recursos">
+<arguments>
+<arg>${dir2}/Imprimir_generar_aviso.png</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:49:57.096" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Imprimir_generar_aviso.png"&gt;&lt;img src="Aviso/Imprimir_generar_aviso.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:49:56.620" endtime="20200309 13:49:57.097"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:56.620" endtime="20200309 13:49:57.097"></status>
+</kw>
+<kw name="Print" library="recursos">
+<arguments>
+<arg>Generar Ok</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<status status="PASS" starttime="20200309 13:49:57.097" endtime="20200309 13:49:57.099"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:57.097" endtime="20200309 13:49:57.099"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>20</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:50:17.102" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20200309 13:49:57.102" endtime="20200309 13:50:17.102"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:49:57.101" endtime="20200309 13:50:17.102"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="amtif:btnObtenPDF"]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:50:17.103" level="INFO">Clicking element 'xpath=//*[@id="amtif:btnObtenPDF"]'.</msg>
+<status status="PASS" starttime="20200309 13:50:17.103" endtime="20200309 13:50:17.568"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:17.102" endtime="20200309 13:50:17.568"></status>
+</kw>
+<kw name="Pantalla" library="recursos">
+<arguments>
+<arg>${dir2}/Imprimir_aviso.png</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:50:18.039" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Aviso/Imprimir_aviso.png"&gt;&lt;img src="Aviso/Imprimir_aviso.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:50:17.569" endtime="20200309 13:50:18.039"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:17.568" endtime="20200309 13:50:18.039"></status>
+</kw>
+<kw name="Print" library="recursos">
+<arguments>
+<arg>Ok se imprime</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<status status="PASS" starttime="20200309 13:50:18.040" endtime="20200309 13:50:18.041"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:18.040" endtime="20200309 13:50:18.041"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200309 13:50:21.043" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200309 13:50:18.042" endtime="20200309 13:50:21.043"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:18.042" endtime="20200309 13:50:21.043"></status>
+</kw>
+<kw name="Video Finalizar" library="recursos">
+<kw name="Stop Video Recording" library="ScreenCapLibrary">
+<doc>Stops the video recording corresponding to the given ``alias`` and generates the file in WebM format. If no
+``alias`` is specified, the last opened recording will be closed. If there are more recordings with the same
+alias all of them will be closed. If ``embed`` argument was set to
+``True`` the video will be displayed in the log file.</doc>
+<msg timestamp="20200309 13:50:22.046" level="INFO" html="yes">&lt;a href="recording_15.webm"&gt;&lt;video width="800px" autoplay&gt;&lt;source src="recording_15.webm" type="video/webm"&gt;&lt;/video&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200309 13:50:21.044" endtime="20200309 13:50:22.047"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:21.043" endtime="20200309 13:50:22.047"></status>
+</kw>
+<kw name="Cerrar" library="recursos">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200309 13:50:22.049" endtime="20200309 13:50:24.218"></status>
+</kw>
+<status status="PASS" starttime="20200309 13:50:22.048" endtime="20200309 13:50:24.218"></status>
 </kw>
 <doc>Despojos y Harinas</doc>
-<status status="FAIL" starttime="20200207 11:57:26.715" endtime="20200207 12:02:16.650" critical="yes">ValueError: I/O operation on closed file.</status>
+<status status="PASS" starttime="20200309 13:48:27.540" endtime="20200309 13:50:24.219" critical="yes"></status>
 </test>
 <doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
-<status status="FAIL" starttime="20200207 11:56:17.217" endtime="20200207 12:02:16.653"></status>
+<status status="PASS" starttime="20200309 13:47:18.515" endtime="20200309 13:50:24.222"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="1">Critical Tests</stat>
-<stat pass="1" fail="1">All Tests</stat>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="1" id="s1" name="Cp001 Video">Cp001 Video</stat>
+<stat pass="2" fail="0" id="s1" name="Cp001 Video">Cp001 Video</stat>
 </suite>
 </statistics>
 <errors>
